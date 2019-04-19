@@ -8,11 +8,16 @@ module.exports = (env) => {
   return {
     entry: './src/app.js',
     output: {
-        path: path.join(__dirname, 'public', 'dist'),
+        path: path.join(__dirname, './dist'),
         filename: 'bundle.js'
     },
     module: {
-        rules: [{
+        rules: [
+          {
+            test: /\.(jpg|png|svg|gif|pdf)$/,
+            loader: 'url-loader',
+          },
+          {
             test: /\.js$/, 
             exclude: /node_modules/,
             use: {
