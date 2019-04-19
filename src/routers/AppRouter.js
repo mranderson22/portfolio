@@ -7,11 +7,12 @@ import PortfolioItem from '../components/PortfolioItem';
 import Contact from '../components/Contact';
 import NotFoundPage from '../components/NotFoundPage';
 import Resume from '../components/Resume';
+import '../styles/components/appRouter.css';
 
 
 const AppRouter = () => (
   <BrowserRouter>
-    <div id="app">
+    <div className="appRouterWrapper">
       <Header />
       <Switch>
         <Route  exact component={Home} path="/"/>
