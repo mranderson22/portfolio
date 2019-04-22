@@ -1,6 +1,6 @@
 import React from 'react';
 import resume from '../../images/resume.pdf';
-import '../styles/components/resume.css';
+import '../styles/components/resume.scss';
 
 const Resume = () => (
   <div className="resumeWrapper">

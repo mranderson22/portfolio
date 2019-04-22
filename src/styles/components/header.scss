@@ -1,0 +1,19 @@
+.headerWrapper {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  height: 66px;
+}
+
+.navbarLogo {
+  position: absolute;
+  left: 0;
+  margin: 10px;
+  width: 50px;
+}
+
+.navLink {
+  margin: 5px;
+  padding-top: 18px;
+  padding-right: 20px;
+}

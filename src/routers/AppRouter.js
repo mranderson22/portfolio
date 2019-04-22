@@ -7,7 +7,7 @@ import PortfolioItem from '../components/PortfolioItem';
 import Contact from '../components/Contact';
 import NotFoundPage from '../components/NotFoundPage';
 import Resume from '../components/Resume';
-import '../styles/components/appRouter.css';
+import '../styles/components/appRouter.scss';
 
 
 const AppRouter = () => (
