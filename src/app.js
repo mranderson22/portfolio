@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import AppRouter from './routers/AppRouter'
+import Home from './components/Home';
 import 'normalize.css/normalize.css';
 import './styles/styles.scss';
 
-ReactDOM.render(<AppRouter />, document.getElementById('app'));
+ReactDOM.render(<Home />, document.getElementById('app'));
 

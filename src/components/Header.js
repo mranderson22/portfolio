@@ -1,16 +1,13 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
-import logo from '../../images/logo_symbol.png';
-import '../styles/components/header.scss';
+import logo from '../../images/logo_symbol_black.png';
 
 const Header = () => (
-  <header className="headerWrapper">
-    <NavLink exact to="/" activeClassName="is-active">
-      <img className="navbarLogo" src={logo} />
-    </NavLink>
-    <NavLink exact to="/portfolio" activeClassName="is-active" className="navLink">Portfolio</NavLink>
-    <NavLink to="/contact" activeClassName="is-active" className="navLink">Contact</NavLink>
-    <NavLink to="/resume" activeClassName="is-active" className="navLink">Resume</NavLink>
+  <header className="header">
+    <img src={logo} className="logoSymbol"></img>
+    <div className="header__content">
+      <h1 className="header__content-title">Hello! My name is Eric Anderson</h1>
+      <h3 className="header__content-description">Let's work together.</h3>
+    </div>
   </header>
 );
 
