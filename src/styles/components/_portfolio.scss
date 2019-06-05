@@ -1,3 +1,50 @@
-.portfolioItemWrapper {
+.portfolio {
+  // height: 100vh;
+  // -webkit-clip-path: polygon(0 25%, 100% 0, 100% 100%, 0 100%);
+  // clip-path: polygon(0 25%, 100% 0, 100% 100%, 0 100%);
+  // background-color: rgba($color-grey, .6);
   
+
+  &__background {
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 60%, 0% 100%);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 60%, 0% 100%);
+    background-color: rgba($color-grey, 1);
+    height: 20vh;
+    z-index: 50;
+    position: absolute;
+    width: 91%;
+    top: 0;
+    transition: all .6s;
+
+    &-wrapper {
+      filter: $tab-drop-shadow;
+      z-index: 50;
+      position: absolute;
+      width: 100%;
+      top: 0;
+    
+    }
+
+    &-button {
+      height: 12vh;
+      z-index: 51;
+      position: absolute;
+      width: 91%;
+      top: 0;
+    }
+  }
+
+  &__content {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  &__tab {
+    height: 10rem;
+    width: 10rem;
+    z-index: 101;
+  }
 }

@@ -1,13 +1,29 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import '../styles/components/portfolio.scss';
+import React, { useState } from 'react';
 
-const Portfolio = (props) => {
+const Portfolio = () => {
+  const [position, setPosition] = useState({ slide: false })
+
+  const slideDown = () => {
+    setPosition(!position);
+    const contact = document.getElementById('contact__background');
+    const resume = document.getElementById('resume__background');
+    contact.classList.remove('slide');
+    resume.classList.remove('slide');
+  }
+
   return (
-    <div className="portfolioItemWrapper">
-        <Link to="/portfolio/1">Item 1{props.match.params.id}</Link>
-        <Link to="/portfolio/2">Item 2{props.match.params.id}</Link>
-        <Link to="/portfolio/3">Item 3{props.match.params.id}</Link>
+    <div className="portfolio">
+      <div onClick={slideDown} className="portfolio__background-button">&nbsp;</div>
+        <div className="portfolio__background-wrapper">
+          <div 
+            id="portfolio__background" 
+            className={position ? "portfolio__background" : "portfolio__background slide"}
+            >
+            <div className="portfolio__content">
+              <h1>Portfolio</h1>
+            </div>
+          </div>
+        </div>
     </div>
   );
 }

@@ -1,0 +1,33 @@
+.home {
+  
+
+  &__wrapper {
+    height: 100vh;
+    z-index: -1;
+  }
+
+  &__content {
+    text-align: center;
+    font-size: 3rem;
+    color: $color-grey-light;
+    padding-bottom: 20rem;
+
+    &-wrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      height: 82vh;
+    }
+
+    &-title {
+      
+    }
+
+    &-description {
+      color: $color-grey-light;
+      text-decoration: underline $color-black;
+    }
+  }
+}

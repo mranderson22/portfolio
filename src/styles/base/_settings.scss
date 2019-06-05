@@ -3,9 +3,16 @@ $color-grey: #858585;
 $color-grey-light: #aaa;
 
 $color-black: #030303;
+
+$color-red: #815353;
+
 // Spacing
 $xl-size: 4.8rem;
 $l-size: 3.2rem;
 $m-size: 1.6rem;
 $s-size: 1.2rem;
 $desktop-breakpoint: 45rem;
+
+// Shadows
+
+$tab-drop-shadow: drop-shadow(-1px -2px 4px rgba(0, 0, 0, 0.4));

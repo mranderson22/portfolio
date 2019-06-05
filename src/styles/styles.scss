@@ -1,6 +1,9 @@
 @import '/base/settings';
 @import './base/base';
+@import './base/utilities';
 
 @import './components/header.scss';
 @import './components/portfolio.scss';
 @import './components/resume.scss';
+@import './components/contact.scss';
+@import './components/home.scss';
