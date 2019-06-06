@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 
 const Portfolio = () => {
-  const [position, setPosition] = useState({ slide: false })
+  const [slide, setSlide] = useState(false)
 
   const slideDown = () => {
-    setPosition(!position);
+    setSlide(!slide);
     const contact = document.getElementById('contact__background');
     const resume = document.getElementById('resume__background');
     contact.classList.remove('slide');
@@ -17,11 +17,13 @@ const Portfolio = () => {
         <div className="portfolio__background-wrapper">
           <div 
             id="portfolio__background" 
-            className={position ? "portfolio__background" : "portfolio__background slide"}
+            className={slide ? "portfolio__background slide" : "portfolio__background"}
             >
-            <div className="portfolio__content">
-              <h1>Portfolio</h1>
-            </div>
+            {slide && (
+              <div className="portfolio__content">
+                <h1>Portfolio</h1>
+              </div>
+            )}
           </div>
         </div>
     </div>

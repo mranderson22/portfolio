@@ -6,13 +6,15 @@
   
 
   &__background {
-    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 60%, 0% 100%);
-    clip-path: polygon(0% 0%, 100% 0%, 100% 60%, 0% 100%);
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 56%, 0% 94%);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 56%, 0% 94%);
     background-color: rgba($color-grey, 1);
-    height: 22vh;
+    height: 25vh;
+    min-height: 19rem;
     z-index: 40;
     position: absolute;
-    width: 94%;
+    width: 20%;
+    min-width: 16rem;
     top: 0;
     transition: all .6s;
 
@@ -26,10 +28,12 @@
     }
 
     &-button {
-      height: 13vh;
+      height: 14vh;
+      min-height: 19rem;
       z-index: 41;
       position: absolute;
-      width: 94%;
+      width: 20%;
+      min-width: 16rem;
       top: 0;
     }
   }

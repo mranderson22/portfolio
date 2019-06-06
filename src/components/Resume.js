@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import resume from '../../images/resume.pdf';
 
 const Resume = () => {
-  const [position, setPosition] = useState({ slide: false })
+  const [slide, setSlide] = useState(false)
 
   const slideDown = () => {
-    setPosition(!position);
+    setSlide(!slide);
     const portfolio = document.getElementById('portfolio__background');
     const contact = document.getElementById('contact__background');
     portfolio.classList.remove('slide');
@@ -18,11 +18,13 @@ const Resume = () => {
         <div className="resume__background-wrapper">
         <div 
           id="resume__background" 
-          className={position ? "resume__background" : "resume__background slide"}
+          className={slide ? "resume__background slide" : "resume__background"}
           >
-          <div className="portfolio__content">
-            <h1>Resume</h1>
-          </div>
+          {slide && (
+            <div className="resume__content">
+              <h1>Resume</h1>
+            </div>
+          )}
         </div>
       </div>
     </div>
