@@ -46,15 +46,11 @@
     height: 100%;
   }
 
-  &__tab {
-    height: 10rem;
-    width: 10rem;
-    z-index: 91;
-  }
-
-  &__checkbox:checked ~ &__background {
-    height: 100vh;
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  &__label {
+    font-size: 3rem;
+    right: -8px;
+    top: 4rem;
+    position: absolute;
+    transform: rotate(90deg);
   }
 }

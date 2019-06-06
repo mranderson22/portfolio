@@ -5,20 +5,21 @@ const Contact = () => {
 
   const slideDown = () => {
     setSlide(!slide);
-    const portfolio = document.getElementById('portfolio__background');
-    const resume = document.getElementById('resume__background');
-    portfolio.classList.remove('slide');
-    resume.classList.remove('slide');
   }
 
 return(
   <div className="contact">
-    <div onClick={slideDown} className="contact__background-button">&nbsp;</div>
+    <div 
+      onClick={slideDown} 
+      className={slide ? "contact__background-button z-top" : "contact__background-button"}>
+      &nbsp;
+    </div>
       <div className="contact__background-wrapper">
       <div 
         id="contact__background" 
         className={slide ? "contact__background slide" : "contact__background"}
         >
+        <span className="contact__label">contact</span>
         {slide && (
           <div className="contact__content">
             <h1>Contact</h1>

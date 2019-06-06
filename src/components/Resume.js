@@ -6,23 +6,26 @@ const Resume = () => {
 
   const slideDown = () => {
     setSlide(!slide);
-    const portfolio = document.getElementById('portfolio__background');
-    const contact = document.getElementById('contact__background');
-    portfolio.classList.remove('slide');
-    contact.classList.remove('slide');
   }
 
   return (
     <div className="resume">
-      <div onClick={slideDown} className="resume__background-button">&nbsp;</div>
+      <div 
+        onClick={slideDown} 
+        className={slide ? "resume__background-button z-top" : "resume__background-button"}>
+        &nbsp;
+      </div>
         <div className="resume__background-wrapper">
         <div 
           id="resume__background" 
           className={slide ? "resume__background slide" : "resume__background"}
           >
+          <span className="resume__label">resume</span>
           {slide && (
             <div className="resume__content">
-              <h1>Resume</h1>
+              <div className="resumeWrapper">
+                <object data={resume} className="resumeObject" type="application/pdf" />
+              </div>
             </div>
           )}
         </div>

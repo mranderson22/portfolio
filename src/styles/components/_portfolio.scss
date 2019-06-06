@@ -46,9 +46,13 @@
     height: 100%;
   }
 
-  &__tab {
-    height: 10rem;
-    width: 10rem;
-    z-index: 101;
+  &__label {
+    font-size: 3rem;
+    right: -8px;
+    top: 4rem;
+    position: absolute;
+    transform: rotate(90deg);
   }
+
+
 }
