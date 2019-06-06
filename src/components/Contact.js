@@ -19,12 +19,31 @@ return(
         id="contact__background" 
         className={slide ? "contact__background slide" : "contact__background"}
         >
-        <span className="contact__label">contact</span>
-        {slide && (
-          <div className="contact__content">
-            <h1>Contact</h1>
+        <span className="label">contact</span>
+          <div className={slide ? "contact__content fadeIn" : "contact__content"}>
+            <div className="contact__form">
+              <form action="#" className="form" id="contact__form">
+              <h1 className="form__header">
+                Contact me!
+              </h1>
+              <h3>email: anderson.eda@gmail.com</h3>
+              <h3>phone: 803-528-9762</h3>
+              <h1 className="form__header">
+                Message me!
+              </h1>
+              <div className="form__group">
+                <input type="text" className="form__input" placeholder="Full Name" id="name" />
+              </div>
+              <div className="form__group">
+                <input type="email" className="form__input" placeholder="Email Address" id="email" />
+              </div>
+              <div className="form__group">
+                <textarea className="form__input" rows="8" resize="none" form="contact__form" placeholder="Message" />
+              </div>
+              <input type="submit" />
+              </form>
+            </div>
           </div>
-        )}
       </div>
     </div>
   </div>

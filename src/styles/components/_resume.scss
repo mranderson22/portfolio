@@ -12,6 +12,11 @@
 
 .resume {
 
+  &:hover &__background {
+    width: 24.5%;
+    background-color: lighten(rgba($color-grey, 1), 5);
+  }
+
   &__background {
     -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 52%, 0% 91%);
     clip-path: polygon(0% 0%, 100% 0%, 100% 52%, 0% 91%);
@@ -23,7 +28,9 @@
     width: 24%;
     min-width: 20rem;
     top: 0;
-    transition: all .6s;
+    transition: all .4s;
+    backface-visibility: hidden;
+    
 
     &-wrapper {
       filter: $tab-drop-shadow;
@@ -31,7 +38,7 @@
       position: absolute;
       width: 100%;
       top: 0;
-    
+      
     }
 
     &-button {
@@ -42,22 +49,12 @@
       width: 24%;
       min-width: 20rem;
       top: 0;
+      cursor: pointer;
     }
   }
 
   &__content {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
+    @include centerOnPage;
     height: 100%;
-  }
-
-  &__label {
-    font-size: 3rem;
-    right: -8px;
-    top: 4rem;
-    position: absolute;
-    transform: rotate(90deg);
   }
 }

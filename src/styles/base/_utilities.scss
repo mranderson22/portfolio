@@ -8,3 +8,22 @@
 .z-top {
   z-index: 1000 !important;
 }
+
+.fadeIn {
+  opacity: 1 !important;
+}
+
+.label {
+  font-size: 3rem;
+  right: -8px;
+  top: 4rem;
+  position: absolute;
+  transform: rotate(90deg);
+}
+
+@mixin centerOnPage {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}

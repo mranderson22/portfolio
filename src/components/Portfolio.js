@@ -19,12 +19,10 @@ const Portfolio = () => {
             id="portfolio__background" 
             className={slide ? "portfolio__background slide" : "portfolio__background"}
             >
-            <span className="portfolio__label">portfolio</span>
-            {slide && (
-              <div className="portfolio__content">
+            <span className="label">portfolio</span>
+              <div className={slide ? "portfolio__content fadeIn" : "portfolio__content"}>
                 <h1>Portfolio</h1>
               </div>
-            )}
           </div>
         </div>
     </div>

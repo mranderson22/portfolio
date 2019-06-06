@@ -1,9 +1,9 @@
 .contact {
-  // height: 100vh;
-  // -webkit-clip-path: polygon(0 25%, 100% 0, 100% 100%, 0 100%);
-  // clip-path: polygon(0 25%, 100% 0, 100% 100%, 0 100%);
-  // background-color: rgba($color-grey, .6);
-  
+
+  &:hover &__background {
+    width: 20.5%;
+    background-color: lighten(rgba($color-grey, 1), 5);
+  }
 
   &__background {
     -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 56%, 0% 94%);
@@ -16,7 +16,9 @@
     width: 20%;
     min-width: 16rem;
     top: 0;
-    transition: all .6s;
+    transition: all .4s;
+    backface-visibility: hidden;
+    @include centerOnPage;
 
     &-wrapper {
       filter: $tab-drop-shadow;
@@ -24,7 +26,6 @@
       position: absolute;
       width: 100%;
       top: 0;
-    
     }
 
     &-button {
@@ -35,22 +36,53 @@
       width: 20%;
       min-width: 16rem;
       top: 0;
+      cursor: pointer;
     }
   }
 
   &__content {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    height: 100%;
+    @include centerOnPage;
+    width: 86rem;
+    height: 65rem;
+    background: lighten($color-grey, 20);
+    opacity: 0;
+    transition: opacity .5s;
+    box-shadow: 0 1rem 2rem rgba(black, .4);
+    border-radius: 3px;
+    text-align: center;
   }
 
-  &__label {
-    font-size: 3rem;
-    right: -8px;
-    top: 4rem;
-    position: absolute;
-    transform: rotate(90deg);
+  &__form {
+    @include centerOnPage;
+    width: 80%;
+  }
+}
+
+.form {
+  width: 100%;
+  height: 100%;
+
+  &__input {
+    color: inherit;
+    font-size: 1.5rem;
+    font-family: inherit;
+    padding: 1.5rem 2rem;
+    border-radius: 2px;
+    background: white;
+    border: none;
+    border-bottom: 3px solid transparent;
+    width: 90%;
+    display: block;
+    transition: all .3s;
+    flex: 1 1 auto;
+  }
+
+  &__group {
+    padding-bottom: 2rem;
+    display: flex;
+  }
+
+  &__header {
+    text-decoration: underline;
   }
 }
