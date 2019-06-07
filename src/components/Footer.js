@@ -8,7 +8,7 @@ const Footer = () => (
     <div className="footer__left">
       <div className="footer__left-content">
         <h3>Designed and built by Eric Anderson</h3>
-        <h3>eric-anderson.io © 2019 Eric Anderson</h3>
+          <h3>eric-anderson.io © 2019 Eric Anderson</h3>
         <img className="footer__logo" src={logo} />
       </div>
     </div>
