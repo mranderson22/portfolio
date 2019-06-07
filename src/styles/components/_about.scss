@@ -1,4 +1,4 @@
-.contact {
+.about {
 
   &:hover &__background {
     width: 20.5%;
@@ -42,47 +42,8 @@
 
   &__content {
     @include centerOnPage;
-    width: 86rem;
-    height: 65rem;
-    background: lighten($color-grey, 20);
+    height: 100%;
     opacity: 0;
     transition: opacity .5s;
-    box-shadow: 0 1rem 2rem rgba(black, .4);
-    border-radius: 3px;
-    text-align: center;
-  }
-
-  &__form {
-    @include centerOnPage;
-    width: 80%;
-  }
-}
-
-.form {
-  width: 100%;
-  height: 100%;
-
-  &__input {
-    color: inherit;
-    font-size: 1.5rem;
-    font-family: inherit;
-    padding: 1.5rem 2rem;
-    border-radius: 2px;
-    background: white;
-    border: none;
-    border-bottom: 3px solid transparent;
-    width: 90%;
-    display: block;
-    transition: all .3s;
-    flex: 1 1 auto;
-  }
-
-  &__group {
-    padding-bottom: 2rem;
-    display: flex;
-  }
-
-  &__header {
-    text-decoration: underline;
   }
 }

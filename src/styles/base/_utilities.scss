@@ -14,11 +14,21 @@
 }
 
 .label {
-  font-size: 3rem;
-  right: -8px;
-  top: 4rem;
-  position: absolute;
-  transform: rotate(90deg);
+  
+
+  &__wrapper {
+    font-size: 3rem;
+    right: -33px;
+    top: 3rem;
+    position: absolute;
+    transform: rotate(90deg);
+    letter-spacing: 1px;
+    height: 4vh;
+    width: 113px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 @mixin centerOnPage {

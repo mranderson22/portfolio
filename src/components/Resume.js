@@ -20,7 +20,9 @@ const Resume = () => {
           id="resume__background" 
           className={slide ? "resume__background slide" : "resume__background"}
           >
-          <span className="label">resume</span>
+          <div className="label__wrapper">
+              <span className="label">resume</span>
+            </div>
           {slide && (
             <div className="resume__content">
               <div className="resumeWrapper">
