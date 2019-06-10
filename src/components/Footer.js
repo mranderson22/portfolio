@@ -4,7 +4,7 @@ import linkedInLogo from '../../images/linkedin.png';
 import logo from '../../images/logo_symbol_black.png';
 
 const Footer = () => (
-  <div className="footer">
+  <footer className="footer">
     <div className="footer__left">
       <div className="footer__left-content">
         <h3>Designed and built by Eric Anderson</h3>
@@ -24,7 +24,7 @@ const Footer = () => (
         </a>
       </div>
     </div>
-  </div>
+  </footer>
 )
 
 

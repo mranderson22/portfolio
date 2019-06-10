@@ -18,7 +18,6 @@
     top: 0;
     transition: all .4s;
     backface-visibility: hidden;
-    @include centerOnPage;
 
     &-wrapper {
       filter: $tab-drop-shadow;
@@ -44,6 +43,8 @@
     @include centerOnPage;
     height: 100%;
     opacity: 0;
-    transition: opacity .5s;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
   }
 }

@@ -38,11 +38,4 @@
       cursor: pointer;
     }
   }
-
-  &__content {
-    @include centerOnPage;
-    height: 100%;
-    opacity: 0;
-    transition: opacity .5s;
-  }
 }

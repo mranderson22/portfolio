@@ -1,12 +1,10 @@
 html {
     font-size: 62.5%;
-    height: 100%;
 }
 
 body {
     font-family: 'Teko', sans-serif;;
     font-size: $m-size;
-    height: 100%;
     background-image: linear-gradient(
     to bottom, 
       rgba($color-black, .95) 50%,
@@ -30,7 +28,7 @@ button:disabled {
 }
 
 #app {
-  height: 100%;
+  
 }
 
 a {

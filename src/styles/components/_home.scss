@@ -14,18 +14,13 @@
     &-wrapper {
       @include centerOnPage;
       flex-direction: column;
-      display: flex;
-      justify-content: center;
-      align-content: center;
-      align-items: center;
-      flex-direction: column;
       height: 100vh;
-      background: linear-gradient(
-        to bottom right, 
-        #ffffff21,
-          transparent
-        );
-      clip-path: polygon(0% 37%, 100% -9%, 100% 100%, 0% 108%);
+      // background: linear-gradient(
+      //   to bottom right, 
+      //   #ffffff21,
+      //     transparent
+      //   );
+      // clip-path: polygon(0% 37%, 100% -9%, 100% 100%, 0% 108%);
       position: absolute;
       top: 0px;
       left: 0;

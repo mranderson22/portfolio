@@ -1,5 +1,5 @@
 .slide {
-  height: 100vh !important;
+  height: inherit !important;
   width: 100% !important;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%) !important;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%) !important;
@@ -11,24 +11,6 @@
 
 .fadeIn {
   opacity: 1 !important;
-}
-
-.label {
-  
-
-  &__wrapper {
-    font-size: 3rem;
-    right: -33px;
-    top: 3rem;
-    position: absolute;
-    transform: rotate(90deg);
-    letter-spacing: 1px;
-    height: 4vh;
-    width: 113px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
 }
 
 @mixin centerOnPage {

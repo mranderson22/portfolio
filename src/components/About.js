@@ -22,9 +22,14 @@ const about = () => {
             <div className="label__wrapper">
               <span className="label">about</span>
             </div>
-              <div className={slide ? "about__content fadeIn" : "about__content"}>
+            <div className={slide ? "content fadeIn" : "content"}>
+              <div className="content__header">
                 <h1>about</h1>
               </div>
+              <div className="content__body">
+              <div className="content-body-title"></div>
+              </div>
+          </div>
           </div>
         </div>
     </div>
