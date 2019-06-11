@@ -1,37 +1,24 @@
-import React, { useState } from 'react';
+import React from 'react';
+import logo from '../../images/logo_symbol.png';
 
 const about = () => {
-  const [slide, setSlide] = useState(false)
-
-  const slideDown = () => {
-    setSlide(!slide);
-  }
 
   return (
     <div className="about">
-      <div 
-        onClick={slideDown} 
-        className={slide ? "about__background-button z-top" : "about__background-button"}
-      >
-      </div>
-        <div className="about__background-wrapper">
-          <div 
-            id="about__background" 
-            className={slide ? "about__background slide" : "about__background"}
-            >
-            <div className="label__wrapper">
-              <span className="label">about</span>
+    <div className="content">
+        <div className="content__body">
+          <div className="content__body-project" id="about">
+            <div className="content__body-imageBank">
+              <img src={logo} className="content__body-imageBank-image"></img>
             </div>
-            <div className={slide ? "content fadeIn" : "content"}>
-              <div className="content__header">
-                <h1>about</h1>
-              </div>
-              <div className="content__body">
-              <div className="content-body-title"></div>
-              </div>
-          </div>
+            <div className="content__body-title">
+              <h1>Should I Check My Crypto?</h1>
+              <h3>At-A-Glance cryptocurrency tracker</h3>
+              <p>Get a heads up when the market turns! Check any of the top 100 crypto assets and compare them with side by side charts and historical data</p>
+            </div>
           </div>
         </div>
+      </div>
     </div>
   );
 }

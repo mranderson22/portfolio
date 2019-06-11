@@ -4,21 +4,19 @@ import Work from './Work';
 import Resume from './Resume';
 import About from './About';
 import Footer from './Footer';
+import Navbar from './Navbar';
 
 const Home = () => {
   return (
     <div>
+      <Navbar />
       <Header />
-      <Work />
-      <Resume />
-      <About />
+      <main>
+        <Work />
+        <About />
+        <Resume />
+      </main>
       <Footer />
-      <div className="home__content-wrapper">
-        <div className="home__content">
-          <h1 className="home__content-title">Hello! My name is Eric Anderson</h1>
-          <h3 className="home__content-description">Let's work together.</h3>
-        </div>
-      </div>
     </div>
   );
 }

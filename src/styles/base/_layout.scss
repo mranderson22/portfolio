@@ -1,20 +1,16 @@
 .content {
-  transition: all .2s;
-  opacity: 0;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  background: black;
+  // background: black;
 
   &__header {
-    height: 30vh;
     background: #858585;
     width: 100%;
     -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 56%, 0% 90%);
     clip-path: polygon(0% 0%, 100% 0%, 100% 56%, 0% 90%);
     @include centerOnPage;
     backface-visibility: hidden;
-    position: absolute;
 
     &-title {
       padding-bottom: 9rem;
@@ -22,8 +18,8 @@
   }
 
   &__body {
-    background: black;
-    margin-top: 27vh;
+    // background: black;
+    // margin-top: 27vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;

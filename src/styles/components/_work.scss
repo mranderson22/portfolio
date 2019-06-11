@@ -1,41 +1,12 @@
 .work {
-
-  &:hover &__background {
-    width: 16.5%;
-    background-color: lighten(rgba($color-grey, 1), 5);
+  margin-top: -31rem;
   }
- 
-  &__background {
-    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 56%, 0% 90%);
-    clip-path: polygon(0% 0%, 100% 0%, 100% 56%, 0% 90%);
-    background-color: rgba($color-grey, 1);
-    height: 23vh;
-    min-height: 16rem;
-    z-index: 50;
-    position: absolute;
-    width: 16%;
-    min-width: 12rem;
-    top: 0;
-    transition: all .4s;
-    backface-visibility: hidden;
 
-    &-wrapper {
-      filter: $tab-drop-shadow;
-      z-index: 50;
-      position: absolute;
-      width: 100%;
-      top: 0;
-    }
-
-    &-button {
-      height: 13vh;
-      min-height: 16rem;
-      z-index: 51;
-      position: absolute;
-      width: 16%;
-      min-width: 12rem;
-      top: 0;
-      cursor: pointer;
-    }
+  .work .content__body-project {
+    webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 0% 90%);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 0% 90%);
+    background: blue;
+    padding-bottom: 40rem;
+    padding-top: 35rem;
+    z-index: 80;
   }
-}

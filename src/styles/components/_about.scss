@@ -1,50 +1,12 @@
 .about {
+  margin-top: -41rem;
+}
 
-  &:hover &__background {
-    width: 20.5%;
-    background-color: lighten(rgba($color-grey, 1), 5);
-  }
-
-  &__background {
-    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 56%, 0% 94%);
-    clip-path: polygon(0% 0%, 100% 0%, 100% 56%, 0% 94%);
-    background-color: rgba($color-grey, 1);
-    height: 25vh;
-    min-height: 19rem;
-    z-index: 40;
-    position: absolute;
-    width: 20%;
-    min-width: 16rem;
-    top: 0;
-    transition: all .4s;
-    backface-visibility: hidden;
-
-    &-wrapper {
-      filter: $tab-drop-shadow;
-      z-index: 40;
-      position: absolute;
-      width: 100%;
-      top: 0;
-    }
-
-    &-button {
-      height: 14vh;
-      min-height: 19rem;
-      z-index: 41;
-      position: absolute;
-      width: 20%;
-      min-width: 16rem;
-      top: 0;
-      cursor: pointer;
-    }
-  }
-
-  &__content {
-    @include centerOnPage;
-    height: 100%;
-    opacity: 0;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-  }
+.about .content__body-project {
+  webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 0% 90%);
+  clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 0% 90%);
+  background: red;
+  padding-bottom: 40rem;
+  padding-top: 30rem;
+  z-index: 50;
 }
