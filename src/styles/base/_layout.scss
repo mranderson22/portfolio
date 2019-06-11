@@ -26,7 +26,7 @@
     align-items: center;
     
 
-    &-title {
+    &-header {
       color: white;
       text-align: center;
     }
@@ -34,8 +34,13 @@
     &-imageBank {
       
       &-image {
-        width: 50vw;
-        max-width: 75rem;
+        width: 51vw;
+        max-width: 107rem;
+      }
+
+      &-imageFloating {
+        position: absolute;
+        width: 35vw;
       }
     }
 

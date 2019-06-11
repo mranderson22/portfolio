@@ -3,10 +3,7 @@
 }
 
 .about .content__body-project {
-  webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 0% 90%);
-  clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 0% 90%);
-  background: red;
-  padding-bottom: 40rem;
+  background: $color-red;
+  padding-bottom: 30rem;
   padding-top: 30rem;
-  z-index: 50;
 }

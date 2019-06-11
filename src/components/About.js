@@ -11,7 +11,7 @@ const about = () => {
             <div className="content__body-imageBank">
               <img src={logo} className="content__body-imageBank-image"></img>
             </div>
-            <div className="content__body-title">
+            <div className="content__body-header">
               <h1>Should I Check My Crypto?</h1>
               <h3>At-A-Glance cryptocurrency tracker</h3>
               <p>Get a heads up when the market turns! Check any of the top 100 crypto assets and compare them with side by side charts and historical data</p>

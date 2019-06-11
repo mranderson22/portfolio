@@ -1,16 +1,20 @@
 .footer {
-  height: 20rem;
+  height: 35rem;
   display: flex;
   justify-content: space-evenly;
   text-align: center;
   letter-spacing: 2px;
+  webkit-clip-path: polygon(0% 60%, 100% 0%, 100% 100%, 0% 100%);
+  clip-path: polygon(0% 60%, 100% 0%, 100% 100%, 0% 100%);
+  margin-top: -25rem;
 
   &__left {
-    background: rgba($color-grey, .8);
-    flex: 1 1 auto;
+    background: rgba($color-grey, 1);
+    flex: 1 1 29%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
+    padding-bottom: 4rem;
 
     &-content {
       color: black;
@@ -18,11 +22,12 @@
   }
 
   &__right {
-    background: rgba($color-grey, .8);
+    background: rgba($color-grey, 1);
     flex: 1 1 auto;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
+    padding-bottom: 4rem;
 
     &-content {
       color: black;
@@ -37,5 +42,9 @@
     width: 3rem;
     padding: 0 5px;
     transition: all .2s;
+  }
+
+  @media (max-width: 650px) {
+    font-size: 1rem;
   }
 }
