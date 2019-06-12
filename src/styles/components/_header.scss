@@ -1,10 +1,11 @@
 .header {
   z-index: 100;
   height: 95vh;
-  background-color: rgba($color-grey, 1);
+  background-color: rgba($color-blue-light, 1);
   -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 0% 100%);
   clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 0% 100%);
   position: relative;
+  border-radius: 3px 3px 0px 0px;
   @include centerOnPage;
 
   &__image-wrapper {
@@ -18,19 +19,42 @@
     flex-direction: column;
     padding-bottom: 20rem;
     text-transform: uppercase;
+    color: $color-white;
 
     &-1 {
-      font-size: 10rem;
+      font-size: 18rem;
       letter-spacing: 10px;
+      
+      @media (max-width: 1600px) {
+        font-size: 10rem;
+      }
 
       @media (max-width: 650px) {
         font-size: 4rem;
       }
+
     }
 
     &-2 {
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      text-align: center; 
       font-size: 3rem;
       letter-spacing: 3px;
+
+      &::before,
+      &::after {
+        content: '';
+        border-top: 2px solid;
+        margin: 0 20px 0 0;
+        flex: 1 0 20px;
+      }
+
+      &::after {
+        margin: 0 0 0 20px;
+      }
 
       @media (max-width: 650px) {
         font-size: 2rem;
@@ -42,4 +66,5 @@
 
 .header .logoSymbol {
   width: 5rem;
+  filter: invert(85%);
 }
