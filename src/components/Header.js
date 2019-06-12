@@ -15,9 +15,12 @@ const Header = () => {
         <img src={logo} className="logoSymbol"></img>
       </div>
       <div className="header__main">
-        <span className="header__main-1">Eric Anderson</span>
-        <span className="header__main-2">Front-end developer</span>
+        <span className="header__main-1">Hello! I'm <span className="highlighted">Eric Anderson</span>.</span>
+        <span className="header__main-2">I'm a front-end web developer.</span>
       </div>
+      <a href="#work" className="downButton">
+        View my work &darr;
+      </a>
     </header>
   )
 };

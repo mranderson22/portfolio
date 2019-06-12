@@ -4,6 +4,30 @@
   flex-direction: column;
   // background: black;
 
+  &__section-title {
+    color: white;
+    font-size: 5rem;
+    text-transform: uppercase;
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 5rem;
+
+     &::before,
+      &::after {
+        content: '';
+        border-top: 2px solid;
+        margin: 0 20px 0 0;
+        flex: 1 0 20px;
+      }
+
+      &::after {
+        margin: 0 0 0 20px;
+      }
+  }
+
   &__header {
     background: #858585;
     width: 100%;
@@ -18,11 +42,6 @@
   }
 
   &__body {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    
 
     &-header {
       color: $color-white;
@@ -31,6 +50,8 @@
       justify-content: center;
       align-items: center;
       flex-direction: column;
+      padding: 4rem 0;
+      width: 100%;
 
       &-title {
         font-size: 5rem;
@@ -42,11 +63,20 @@
 
       &-description {
         font-size: 2rem;
+        padding: 2rem 5rem;
       }
     }
 
     &-imageBank {
-      
+
+      width: 100%;
+      display: flex;
+      align-items: center;
+      align-content: center;
+      justify-content: center;
+      background-color: lighten($color-blue, 2);
+      padding-top: 3rem;
+
       &-image {
         width: 80vw;
         max-width: 125rem;
@@ -101,3 +131,20 @@
    
   }
 }
+
+.devIcons {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  background-color: darken($color-blue, 3);
+  padding: 3rem 0;
+
+  &__icon {
+    font-size: 5rem;
+    color: $color-white;
+    padding: 5px;
+  }
+}
+
