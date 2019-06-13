@@ -2,9 +2,13 @@ import React from 'react';
 import githubLogo from '../../images/github-logo.png';
 import linkedInLogo from '../../images/linkedin.png';
 import logo from '../../images/logo_symbol_black.png';
+import upArrow from '../../images/upArrow.png';
 
-const Footer = () => (
+const Footer = ({scroll}) => (
   <footer className="footer">
+    <div className="upArrow" data-aos="slide-up" onClick={() => scroll('home')}>
+      <img className="upArrow__image" src={upArrow} />
+    </div>
     <div className="footer__left">
       <div className="footer__left-content">
         <h3>Designed and built by Eric Anderson</h3>

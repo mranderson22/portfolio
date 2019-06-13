@@ -7,9 +7,10 @@
   webkit-clip-path: polygon(0% 60%, 100% 0%, 100% 100%, 0% 100%);
   clip-path: polygon(0% 60%, 100% 0%, 100% 100%, 0% 100%);
   margin-top: -25rem;
+  position: relative;
 
   &__left {
-    background: rgba($color-grey, 1);
+    background: rgba($color-white, 1);
     flex: 1 1 29%;
     display: flex;
     justify-content: center;
@@ -22,7 +23,7 @@
   }
 
   &__right {
-    background: rgba($color-grey, 1);
+    background: rgba($color-white, 1);
     flex: 1 1 auto;
     display: flex;
     justify-content: center;
@@ -46,5 +47,18 @@
 
   @media (max-width: 650px) {
     font-size: 1rem;
+  }
+}
+
+.upArrow {
+  position: absolute;
+  z-index: 1000;
+  bottom: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+
+  &__image {
+    width: 8rem;
   }
 }

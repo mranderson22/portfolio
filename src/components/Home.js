@@ -9,16 +9,22 @@ import 'aos/dist/aos.css';
 
 const Home = () => {
 
+  const scroll = (pos) => {
+    document.getElementById(pos).scrollIntoView({
+      behavior: 'smooth'
+    })
+  }
+
   return (
     <div>
-      <Navbar />
-      <Header />
+      <Navbar scroll={scroll} />
+      <Header scroll={scroll}/>
       <main>
         <Work />
         <About />
         <Resume />
       </main>
-      <Footer />
+      <Footer scroll={scroll} />
     </div>
   );
 }

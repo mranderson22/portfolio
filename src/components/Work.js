@@ -8,7 +8,7 @@ const work = () => {
       <div className="content">
         <div className="content__body">
           <div className="content__body-project">
-            <span className="content__section-title" id="work" data-aos="fade-down">Projects</span>
+            <span className="content__section-title" id="work" data-aos-mirror="false">Projects</span>
             <div className="content__body-imageBank" data-aos="fade-left" data-aos-delay="250">
               <img src={mockups} className="content__body-imageBank-image"></img>
             </div>
@@ -32,20 +32,20 @@ const work = () => {
               <i className="devicon-babel-plain devIcons__icon" data-aos="fade-up" data-aos-delay="600"></i>
             </div>
             <div className="content__body-project-buttons">
-              <div data-aos="fade-right" data-aos-delay="300">
+              <div data-aos="fade-up">
                 <a 
                 href="https://github.com/mranderson22/shouldicheckmycrypto" 
                 target="_blank" 
-                className="downButton"
+                className="btn"
                 >
                   Github
                 </a>
               </div>
-              <div data-aos="fade-left" data-aos-delay="500">
+              <div data-aos="fade-up">
                 <a 
                 href="https://shouldicheckmycrypto.com/" 
                 target="_blank" 
-                className="downButton"
+                className="btn"
                 >
                   Website
                 </a>

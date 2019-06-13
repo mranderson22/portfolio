@@ -1,17 +1,25 @@
 import React from 'react';
 import icon from '../../images/logo_symbol_black_small.png';
 
-const Navbar = () => {
+const Navbar = ({scroll}) => {
+
   return (
-    <div className="navBar">
-      <div className="navBar__button">
-        <a href="#work"><img className="navBar__button-icon" src={icon} /></a>
-      </div>
-      <div className="navBar__button">
-        <a href="#about"><img className="navBar__button-icon" src={icon} /></a>
-      </div>
-      <div className="navBar__button">
-        <a href="#resume"><img className="navBar__button-icon" src={icon} /></a>
+    <div>
+      <div className="navBar">
+        <div className="homeIcon">
+          <img src={icon} className="logoSymbol" onClick={() => scroll('home')}/>
+        </div>
+        <div className="rightBank">
+          <div className="navBar__button" onClick={() => scroll('work')}>
+            <span className="navBar__button-icon">work</span>
+          </div>
+          <div className="navBar__button" onClick={() => scroll('about')}>
+            <span className="navBar__button-icon">about</span>
+          </div>
+          <div className="navBar__button" onClick={() => scroll('contact')}>
+            <span className="navBar__button-icon">contact</span>
+          </div>
+        </div>
       </div>
     </div>
   )

@@ -54,16 +54,11 @@
 
 }
 
-.header .logoSymbol {
-  width: 5rem;
-  filter: invert(85%);
-}
-
 .highlighted {
   color: $color-red;
 }
 
-.header .downButton {
+.header .btn {
   margin-top: 3rem;
   margin-bottom: 20rem;
 }

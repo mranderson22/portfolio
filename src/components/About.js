@@ -8,9 +8,9 @@ const about = () => {
     <div className="content">
         <div className="content__body">
           <div className="content__body-project">
-            <span className="content__section-title" id="work">About</span>
+            <span className="content__section-title" id="about">About</span>
             <div className="content__body-imageBank">
-              <img src={logo} className="content__body-imageBank-image" id="about"></img>
+              <img src={logo} className="content__body-imageBank-image"></img>
             </div>
             <div className="content__body-header">
               <h1>Should I Check My Crypto?</h1>
