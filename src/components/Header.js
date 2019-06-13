@@ -14,13 +14,15 @@ const Header = () => {
       <div className="header__image-wrapper">
         <img src={logo} className="logoSymbol"></img>
       </div>
-      <div className="header__main">
+      <div className="header__main" data-aos="zoom-in">
         <span className="header__main-1">Hello! I'm <span className="highlighted">Eric Anderson</span>.</span>
         <span className="header__main-2">I'm a front-end web developer.</span>
       </div>
-      <a href="#work" className="downButton">
-        View my work &darr;
-      </a>
+      <div data-aos="fade-up" data-aos-delay="250">
+        <a href="#work" className="downButton">
+          View my work &darr;
+        </a>
+      </div>
     </header>
   )
 };

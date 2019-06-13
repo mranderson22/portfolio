@@ -6,7 +6,18 @@
     webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 86%, 0% 100%);
     clip-path: polygon(0% 0%, 100% 0%, 100% 86%, 0% 100%);
     background: $color-blue;
-    padding-bottom: 75rem;
+    padding-bottom: 35rem;
     padding-top: 50rem;
     z-index: 80;
+
+    &-buttons {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      margin-top: 3rem;
+    }
+  }
+
+  .work .downButton {
+    margin: 0 2rem;
   }
