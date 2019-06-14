@@ -10,8 +10,6 @@ import AOS from 'aos';
 
 const Home = () => {
 
-  AOS.init()
-
   const scroll = (pos) => {
     document.getElementById(pos).scrollIntoView({
       behavior: 'smooth'
@@ -24,7 +22,7 @@ const Home = () => {
     scrollPosition = window.scrollY;
     const nav = document.getElementById('nav');
 
-    if (scrollPosition > 900) {
+    if (scrollPosition > 700) {
       nav.classList.add('bg');
     } else {
       nav.classList.remove('bg');
