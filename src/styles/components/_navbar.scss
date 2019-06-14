@@ -9,6 +9,8 @@
   align-content: center;
   z-index: 1000;
   color: white;
+  transition: all .5s;
+  backface-visibility: hidden;
 
   &__button {
     @include centerOnPage;
@@ -42,8 +44,8 @@
 }
 
 .homeIcon {
-  padding-left: 2.3rem;
-  padding-top: 2.1rem;
+  padding-left: 1rem;
+  padding-top: 1rem;
 }
 
 .logoSymbol {
@@ -57,4 +59,9 @@
   justify-content: space-between;
   width: 25rem;
   padding-right: 3rem;
+}
+
+.bg {
+  background: #252445;
+  box-shadow: 0 .2rem 0rem white;
 }

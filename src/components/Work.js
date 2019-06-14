@@ -9,7 +9,7 @@ const work = () => {
         <div className="content__body">
           <div className="content__body-project">
             <span className="content__section-title" id="work" data-aos-mirror="false">Projects</span>
-            <div className="content__body-imageBank" data-aos="fade-left" data-aos-delay="250">
+            <div className="content__body-imageBank">
               <img src={mockups} className="content__body-imageBank-image"></img>
             </div>
             <div className="content__body-header">

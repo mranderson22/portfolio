@@ -6,7 +6,7 @@ import upArrow from '../../images/upArrow.png';
 
 const Footer = ({scroll}) => (
   <footer className="footer">
-    <div className="upArrow" data-aos="slide-up" onClick={() => scroll('home')}>
+    <div className="upArrow" onClick={() => scroll('home')}>
       <img className="upArrow__image" src={upArrow} />
     </div>
     <div className="footer__left">

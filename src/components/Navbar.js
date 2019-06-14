@@ -5,7 +5,7 @@ const Navbar = ({scroll}) => {
 
   return (
     <div>
-      <div className="navBar">
+      <div className="navBar" id="nav">
         <div className="homeIcon">
           <img src={icon} className="logoSymbol" onClick={() => scroll('home')}/>
         </div>
