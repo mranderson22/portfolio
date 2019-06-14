@@ -1,13 +1,13 @@
 .work {
-  margin-top: -45rem;
+  margin-top: -32rem;
   }
 
   .work .content__body-project {
-    webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 86%, 0% 100%);
-    clip-path: polygon(0% 0%, 100% 0%, 100% 86%, 0% 100%);
+    webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 0% 100%);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 0% 100%);
     background: $color-blue;
-    padding-bottom: 35rem;
-    padding-top: 45rem;
+    padding-bottom: 25rem;
+    padding-top: 25rem;
     z-index: 80;
 
     &-buttons {

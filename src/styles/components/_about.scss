@@ -1,9 +1,38 @@
 .about {
-  margin-top: -38rem;
+  margin-top: -41rem;
 }
 
 .about .content__body-project {
   background: $color-red;
   padding-bottom: 30rem;
-  padding-top: 45rem;
+  padding-top: 35rem;
+}
+
+.portrait {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__wrapper {
+    width: 75%;
+
+    &-fig {
+      width: 23rem;
+      height: 25rem;
+      float: left;
+      position: relative;
+      shape-outside: circle(43% at 50% 50%);
+      clip-path: circle(47% at 50% 50%);
+    }
+  }
+
+  &__image {
+    width: 23rem;
+  }
+
+  &__message {
+    padding-left: 3rem;
+    font-size: 2rem;
+  }
 }

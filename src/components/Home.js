@@ -6,7 +6,6 @@ import About from './About';
 import Footer from './Footer';
 import Navbar from './Navbar';
 import 'aos/dist/aos.css';
-import AOS from 'aos';
 
 const Home = () => {
 

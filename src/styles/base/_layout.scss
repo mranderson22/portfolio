@@ -9,7 +9,7 @@
     font-size: 5rem;
     text-transform: uppercase;
     display: flex;
-    width: 80%;
+    width: 35%;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -27,7 +27,7 @@
       }
 
       &::after {
-        margin: 0 0 0 20px;
+        margin: 0 0 0 5px;
       }
   }
 
@@ -140,6 +140,8 @@
   align-items: center;
   align-content: center;
   padding: 3rem 0;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
 
   &__icon {
     font-size: 5rem;
