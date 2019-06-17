@@ -1,5 +1,18 @@
 .about {
   margin-top: -41rem;
+
+  &__icons {
+
+    &-wrapper {
+      text-align: center;
+      width: 80%;
+    }
+
+    &-title {
+      color: $color-white;
+      font-size: 3rem;
+    }
+  }
 }
 
 .about .content__body-project {
@@ -13,22 +26,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-
-  &__wrapper {
-    width: 75%;
-
-    &-fig {
-      width: 23rem;
-      height: 25rem;
-      float: left;
-      position: relative;
-      shape-outside: circle(43% at 50% 50%);
-      clip-path: circle(47% at 50% 50%);
-    }
-  }
+  flex-wrap: wrap;
+  width: 80%;
 
   &__image {
     width: 23rem;
+    clip-path: circle(44% at 50% 44%);
   }
 
   &__message {

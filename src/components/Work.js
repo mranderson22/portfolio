@@ -31,7 +31,7 @@ const work = () => {
               <i className="devicon-babel-plain devIcons__icon" data-aos="fade-left" data-aos-delay="600"></i>
             </div>
             <div className="content__body-project-buttons">
-              <div data-aos="fade-up">
+              <div data-aos="fade">
                 <a 
                 href="https://github.com/mranderson22/shouldicheckmycrypto" 
                 target="_blank" 
@@ -40,7 +40,7 @@ const work = () => {
                   Github
                 </a>
               </div>
-              <div data-aos="fade-up">
+              <div data-aos="fade">
                 <a 
                 href="https://shouldicheckmycrypto.com/" 
                 target="_blank" 
