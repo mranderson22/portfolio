@@ -17,7 +17,7 @@ const Navbar = ({scroll}) => {
             <span className="navBar__button-icon">about</span>
           </div>
           <div className="navBar__button" onClick={() => scroll('contact')}>
-            <span className="navBar__button-icon">contact</span>
+            <span className="navBar__button-icon">resume</span>
           </div>
         </div>
       </div>
