@@ -1,18 +1,6 @@
 .about {
   margin-top: -41rem;
 
-  &__icons {
-
-    &-wrapper {
-      text-align: center;
-      width: 80%;
-    }
-
-    &-title {
-      color: $color-white;
-      font-size: 3rem;
-    }
-  }
 }
 
 .about .content__body-project {
@@ -23,15 +11,14 @@
 
 .portrait {
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
   width: 80%;
 
   &__image {
     width: 23rem;
     clip-path: circle(44% at 50% 44%);
+    float: left;
+    shape-outside: circle(44% at 50% 44%);
+    margin: 2rem;
   }
 
   &__message {

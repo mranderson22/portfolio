@@ -14,23 +14,21 @@ const about = () => {
 
               Computers have always been a central part of my life ever since I was a kid building PC's with my father on our kitchen table.
               When it was time to figure out what to study in college, I knew it needed to be something in front of a screen. Thus the majority of my 
-              formal education was centered around 3D Animation and Visual Effects. One of my favorite parts of 3D is the
-              complexity of the software. I loved having so many tools at my fingertips and building things as efficiently as possible through my grasp of what the
-              program (Autodesk Maya) could do.  While it was something I enjoyed and was very good at, after school
+              formal education was centered around 3D Animation and Visual Effects. While it was something I enjoyed and was very good at,
               I had an opportunity to live in NYC and run a cafe in Manhattan, and I took it. I got to meet thousands of interesting people,
               and have regulars like Alec Baldwin and Emma Stone! 
               
-              I then met my future wife playing video games online (Call of Duty), and she moved to NYC after landing her first job as a full-stack developer.
-              I credit her with opening my eyes to the programming world.
+              My then future wife moved to NYC after landing her first job as a full-stack developer,
+              and she opened my eyes to the programming world.
               I began to dabble with code after hours, more specifically I started teaching myself to use python + django, and 
               got a taste of the complexity that I loved about 3D, plus the power of being able to push something live
               to the web. This is something I could see myself really enjoying.
               
               As our priorities changed and we looked towards the future, we decided to move to North Carolina (the land of cheaper rent), where I would be able to take time off
-              to learn to be a developer. And here we are!   </p>
+              to learn to be a developer. And here we are!    </p>
             </div>
-            <div className="about__icons-wrapper">
-              <span className="about__icons-title">What I enjoy working with: </span>
+            <div className="devIcons-wrapper">
+              <span className="devIcons-title">What I enjoy working with: </span>
               <div className="devIcons" data-aos="fade">
                 <i className="devicon-react-original devIcons__icon" data-aos="fade-left" data-aos-delay="50"></i>
                 <i className="devicon-sass-original devIcons__icon" data-aos="fade-left" data-aos-delay="100"></i>
