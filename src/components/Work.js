@@ -25,12 +25,12 @@ const work = () => {
             <div className="devIcons-wrapper">
               <span className="devIcons-title">Build:</span>
               <div className="devIcons" data-aos="fade">
-                <i className="devicon-heroku-original devIcons__icon" data-aos="fade" data-aos-delay="100"></i>
-                <i className="devicon-react-original devIcons__icon" data-aos="fade" data-aos-delay="200"></i>
-                <i className="devicon-sass-original devIcons__icon" data-aos="fade" data-aos-delay="300"></i>
-                <i className="devicon-html5-plain devIcons__icon" data-aos="fade" data-aos-delay="400"></i>
-                <i className="devicon-webpack-plain devIcons__icon" data-aos="fade" data-aos-delay="500"></i>
-                <i className="devicon-babel-plain devIcons__icon" data-aos="fade" data-aos-delay="600"></i>
+                <i className="devicon-heroku-original devIcons__icon" data-aos="fade-left" data-aos-delay="100"></i>
+                <i className="devicon-react-original devIcons__icon" data-aos="fade-left" data-aos-delay="200"></i>
+                <i className="devicon-sass-original devIcons__icon" data-aos="fade-left" data-aos-delay="300"></i>
+                <i className="devicon-html5-plain devIcons__icon" data-aos="fade-left" data-aos-delay="400"></i>
+                <i className="devicon-webpack-plain devIcons__icon" data-aos="fade-left" data-aos-delay="500"></i>
+                <i className="devicon-babel-plain devIcons__icon" data-aos="fade-left" data-aos-delay="600"></i>
               </div>
             </div>
             <div className="content__body-project-buttons">
