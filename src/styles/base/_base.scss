@@ -16,10 +16,8 @@ body {
     // padding: 3rem;
     background-position: top;
     background-size: 6rem;
-
-    @media (max-width: 650) {
-      position: absolute;
-    }
+    overflow-x: hidden;
+    
     
 }
 

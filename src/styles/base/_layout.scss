@@ -61,12 +61,15 @@
 
       &-sub {
         font-size: 3rem;
+        font-family: 'Open Sans', sans-serif;
       }
 
       &-description {
         font-size: 2rem;
         padding: 2rem 5rem;
         width: 80%;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 300;
       }
     }
 
@@ -78,7 +81,6 @@
       align-content: center;
       justify-content: center;
       padding-top: 3rem;
-      filter: drop-shadow(0rem 0rem 1rem rgba(white, .4));
 
       &-image {
         width: 80vw;
@@ -120,7 +122,7 @@
 }
 
 .video {
-  position: absolute;
+  position: fixed;
   z-index: -1;
   opacity: .15;
   top: 0;

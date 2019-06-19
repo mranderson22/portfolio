@@ -14,10 +14,10 @@
   transition: all .5s;
 
   &__close {
-      color: $color-grey;
+      color: lighten($color-grey, 50);
       position: absolute;
       top: 1%;
-      right: 1%;
+      right: 5%;
       font-size: 5rem;
       text-decoration: none;
       display: inline-block;

@@ -24,5 +24,11 @@
   &__message {
     padding-left: 3rem;
     font-size: 2rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+
+    @media (max-width: 650px) {
+      font-size: 1.5rem;
+    }
   }
 }

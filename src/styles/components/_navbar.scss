@@ -16,6 +16,7 @@
     @include centerOnPage;
     cursor: pointer;
     font-size: 2rem;
+    width: 0;
 
     &-icon {
       position: relative;
@@ -52,7 +53,7 @@
       &:hover:before,
       &:hover:after {
         visibility: visible;
-        transform: scaleX(1.5);
+        transform: scaleX(1.3);
       }
 
       &:hover {
