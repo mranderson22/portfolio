@@ -30,19 +30,19 @@ const about = () => {
             <div className="devIcons-wrapper">
               <span className="devIcons-title">What I enjoy working with: </span>
               <div className="devIcons" data-aos="fade">
-                <i className="devicon-react-original devIcons__icon" data-aos="fade-left" data-aos-delay="50"></i>
-                <i className="devicon-sass-original devIcons__icon" data-aos="fade-left" data-aos-delay="100"></i>
-                <i className="devicon-html5-plain devIcons__icon" data-aos="fade-left" data-aos-delay="150"></i>
-                <i className="devicon-webpack-plain devIcons__icon" data-aos="fade-left" data-aos-delay="200"></i>
-                <i className="devicon-babel-plain devIcons__icon" data-aos="fade-left" data-aos-delay="250"></i>
-                <i className="devicon-git-plain devIcons__icon" data-aos="fade-left" data-aos-delay="300"></i>
-                <i className="devicon-heroku-original devIcons__icon" data-aos="fade-left" data-aos-delay="350"></i>
-                <i className="devicon-javascript-plain devIcons__icon" data-aos="fade-left" data-aos-delay="400"></i>
-                <i className="devicon-photoshop-plain devIcons__icon" data-aos="fade-left" data-aos-delay="450"></i>
-                <i className="devicon-illustrator-plain devIcons__icon" data-aos="fade-left" data-aos-delay="500"></i>
-                <i className="devicon-windows8-original devIcons__icon" data-aos="fade-left" data-aos-delay="550"></i>
-                <i className="devicon-apple-original devIcons__icon" data-aos="fade-left" data-aos-delay="600"></i>
-                <i className="devicon-ubuntu-plain devIcons__icon" data-aos="fade-left" data-aos-delay="650"></i>
+                <i className="devicon-react-original devIcons__icon" data-aos="fade" data-aos-delay="50"></i>
+                <i className="devicon-sass-original devIcons__icon" data-aos="fade" data-aos-delay="100"></i>
+                <i className="devicon-html5-plain devIcons__icon" data-aos="fade" data-aos-delay="150"></i>
+                <i className="devicon-webpack-plain devIcons__icon" data-aos="fade" data-aos-delay="200"></i>
+                <i className="devicon-babel-plain devIcons__icon" data-aos="fade" data-aos-delay="250"></i>
+                <i className="devicon-git-plain devIcons__icon" data-aos="fade" data-aos-delay="300"></i>
+                <i className="devicon-heroku-original devIcons__icon" data-aos="fade" data-aos-delay="350"></i>
+                <i className="devicon-javascript-plain devIcons__icon" data-aos="fade" data-aos-delay="400"></i>
+                <i className="devicon-photoshop-plain devIcons__icon" data-aos="fade" data-aos-delay="450"></i>
+                <i className="devicon-illustrator-plain devIcons__icon" data-aos="fade" data-aos-delay="500"></i>
+                <i className="devicon-windows8-original devIcons__icon" data-aos="fade" data-aos-delay="550"></i>
+                <i className="devicon-apple-original devIcons__icon" data-aos="fade" data-aos-delay="600"></i>
+                <i className="devicon-ubuntu-plain devIcons__icon" data-aos="fade" data-aos-delay="650"></i>
               </div>
             </div>
           </div>
