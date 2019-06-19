@@ -12,7 +12,7 @@ const about = () => {
               <img src={portrait} className="portrait__image"></img>
               <p className="portrait__message">Welcome! A little about me...
 
-              Computers have always been a central part of my life ever since I was a kid building PC's with my father on our kitchen table.
+              Computers have always been a central part of my life ever since I was a kid building PC's with my father.
               When it was time to figure out what to study in college, I knew it needed to be something in front of a screen. Thus the majority of my 
               formal education was centered around 3D Animation and Visual Effects. While it was something I enjoyed and was very good at,
               I had an opportunity to live in NYC and run a cafe in Manhattan, and I took it. I got to meet thousands of interesting people,

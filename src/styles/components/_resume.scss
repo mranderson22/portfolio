@@ -1,60 +1,97 @@
-.resumeObject {
-  height: 100vh;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-}
-
-.resumeWrapper {
-  height: 100%;
-  width: 100%;
-}
-
 .resume {
 
-  &:hover &__background {
-    width: 24.5%;
-    background-color: lighten(rgba($color-grey, 1), 5);
+  height: 100vh;
+  width: 100%;
+  background-color: rgba($color-black, .7);
+  position: fixed;
+  z-index: 3000;
+  top: 0;
+  left: 0;
+  @include centerOnPage;
+  flex-direction: column;
+  opacity: 0;
+  visibility: hidden;
+  transition: all .5s;
+
+  &__close {
+      color: $color-grey;
+      position: absolute;
+      top: 1%;
+      right: 1%;
+      font-size: 5rem;
+      text-decoration: none;
+      display: inline-block;
+      line-height: 1;
+
+    &:hover {
+      color: $color-red;
+    }
   }
 
-  &__background {
-    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 52%, 0% 91%);
-    clip-path: polygon(0% 0%, 100% 0%, 100% 52%, 0% 91%);
-    background-color: rgba($color-grey, 1);
-    height: 29vh;
-    min-height: 23rem;
-    z-index: 30;
-    position: absolute;
-    width: 24%;
-    min-width: 20rem;
-    top: 0;
-    transition: all .4s;
-    backface-visibility: hidden;
+}
+
+.reveal {
+  opacity: 1;
+  visibility: visible;
+}
+
+// .resumeObject {
+//   height: 100vh;
+//   width: 100%;
+//   display: flex;
+//   flex-direction: column;
+// }
+
+// .resumeWrapper {
+//   height: 100%;
+//   width: 100%;
+// }
+
+// .resume {
+
+//   &:hover &__background {
+//     width: 24.5%;
+//     background-color: lighten(rgba($color-grey, 1), 5);
+//   }
+
+//   &__background {
+//     -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 52%, 0% 91%);
+//     clip-path: polygon(0% 0%, 100% 0%, 100% 52%, 0% 91%);
+//     background-color: rgba($color-grey, 1);
+//     height: 29vh;
+//     min-height: 23rem;
+//     z-index: 30;
+//     position: absolute;
+//     width: 24%;
+//     min-width: 20rem;
+//     top: 0;
+//     transition: all .4s;
+//     backface-visibility: hidden;
     
 
-    &-wrapper {
-      filter: $tab-drop-shadow;
-      z-index: 30;
-      position: absolute;
-      width: 100%;
-      top: 0;
+//     &-wrapper {
+//       filter: $tab-drop-shadow;
+//       z-index: 30;
+//       position: absolute;
+//       width: 100%;
+//       top: 0;
       
-    }
+//     }
 
-    &-button {
-      height: 15vh;
-      min-height: 23rem;
-      z-index: 31;
-      position: absolute;
-      width: 24%;
-      min-width: 20rem;
-      top: 0;
-      cursor: pointer;
-    }
-  }
+//     &-button {
+//       height: 15vh;
+//       min-height: 23rem;
+//       z-index: 31;
+//       position: absolute;
+//       width: 24%;
+//       min-width: 20rem;
+//       top: 0;
+//       cursor: pointer;
+//     }
+//   }
 
-  &__content {
-    @include centerOnPage;
-    height: 100%;
-  }
-}
+//   &__content {
+//     @include centerOnPage;
+//     height: 100%;
+//   }
+// }

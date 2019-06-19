@@ -14,11 +14,7 @@ module.exports = (env) => {
     module: {
         rules: [
           {
-            test: /\.(pdf)$/,
-            use: 'file-loader?name=[path][name].[ext]'
-          },
-          {
-            test: /\.(jpg|png|svg|gif|mp4)$/,
+            test: /\.(jpg|png|svg|gif|pdf|mp4)$/,
             loader: 'url-loader',
           },
           {

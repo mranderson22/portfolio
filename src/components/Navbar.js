@@ -1,7 +1,7 @@
 import React from 'react';
 import icon from '../../images/logo_symbol_black_small.png';
 
-const Navbar = ({scroll}) => {
+const Navbar = ({scroll, popup}) => {
 
   return (
     <div>
@@ -16,7 +16,7 @@ const Navbar = ({scroll}) => {
           <div className="navBar__button" onClick={() => scroll('about')}>
             <span className="navBar__button-icon">about</span>
           </div>
-          <div className="navBar__button" onClick={() => scroll('contact')}>
+          <div className="navBar__button" onClick={popup}>
             <span className="navBar__button-icon">resume</span>
           </div>
         </div>

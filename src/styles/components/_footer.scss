@@ -63,9 +63,15 @@
     transform: translate(-50%, -60%) scale(1.05);
   }
 
-
+  @media (max-width: 650px) {
+    bottom: 35%;
+  }
 
   &__image {
     width: 8rem;
+
+    @media (max-width: 650px) {
+      width: 6rem;
+    }
   }
 }

@@ -28,14 +28,20 @@ const Home = () => {
     }
   })
 
+  const popup = () => {
+    const resume = document.getElementById('resume');
+
+    resume.classList.toggle('reveal');
+  }
+
   return (
     <div>
-      <Navbar scroll={scroll} />
+      <Navbar scroll={scroll} popup={popup}/>
       <Header scroll={scroll}/>
       <main>
         <Work />
         <About />
-        <Resume />
+        <Resume popup={popup}/>
       </main>
       <Footer scroll={scroll} />
     </div>
