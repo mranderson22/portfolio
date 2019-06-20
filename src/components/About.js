@@ -1,5 +1,6 @@
 import React from 'react';
 import portrait from '../../images/portrait2.png';
+import Graph from './Graph';
 
 const about = () => {
 
@@ -43,6 +44,21 @@ const about = () => {
                 <i className="devicon-windows8-original devIcons__icon" data-aos="fade-left" data-aos-delay="550"></i>
                 <i className="devicon-apple-original devIcons__icon" data-aos="fade-left" data-aos-delay="600"></i>
                 <i className="devicon-ubuntu-plain devIcons__icon" data-aos="fade-left" data-aos-delay="650"></i>
+              </div>
+            </div>
+            <div className="attributes__wrapper">
+              <div className="attributes__left">
+                <span className="attributes__title">Hobbies:</span>
+                <ul className="attributes__hobbies">
+                  <li>3D Printing - PLA / DnD minis </li>
+                  <li>3D Modeling - Autodesk Maya / Sci-Fi tech </li>
+                  <li>PC Building - Nvidia fanboy / 144hz 1440p </li>
+                  <li>PC Gaming - Dota / Apex / Rocket League</li>
+                  <li>Star wars - ESB / ANH / TFA / RO / ROTS / ROTJ / The rest </li>
+                </ul>
+              </div>
+              <div className="attributes__right">
+                <Graph />
               </div>
             </div>
           </div>

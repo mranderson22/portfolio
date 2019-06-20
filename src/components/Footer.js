@@ -17,7 +17,6 @@ const Footer = ({scroll}) => (
     </div>
     <div className="footer__right">
       <div className="footer__right-content">
-        <h3>803-528-9762</h3>
         <h3>anderson.eda@gmail.com</h3>
         <h3>eric-anderson.io © 2019 Eric Anderson</h3>
         <a href="https://github.com/mranderson22" target="_blank" rel="noopener noreferrer">
