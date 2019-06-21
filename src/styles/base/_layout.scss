@@ -174,8 +174,7 @@
   background-size: 230%;
   transition: all .4s;
   display: inline-block;
-  border-bottom: 1px solid white;
-  border: 1px solid white;
+  border: 2px solid $color-red;
   backface-visibility: hidden;
   border-radius: 3px;
 
@@ -189,14 +188,14 @@
     background-size: 230%;
     transition: all .4s;
     display: inline-block;
-    border-bottom: 1px solid white;
-    border: 1px solid white;
+    border: 2px solid $color-red;
     backface-visibility: hidden;
     border-radius: 3px;
   }
 
   &:hover,
   &:active {
+    border: 2px solid $color-white;
     background-position: 100%;
     color: $color-red;
     transform: translateY(-1rem);
