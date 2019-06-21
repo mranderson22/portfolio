@@ -36,7 +36,7 @@ const Graph = () => {
         dataLabels: {
           style: {
             fontSize: '1.5rem',
-            colors: ['rgb(255, 255, 255)'],
+            colors: ['gainsboro'],
             fontFamily: 'open-sans, sans-serif',
           },
         },
@@ -58,7 +58,7 @@ const Graph = () => {
       }
 
     const series = [{
-      data: [90, 80, 80, 80, 70, 50, 50, 50, 40, 20],
+      data: [90, 80, 80, 80, 70, 60, 60, 60, 40, 20],
     }]
 
     return (

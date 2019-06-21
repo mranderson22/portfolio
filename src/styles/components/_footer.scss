@@ -1,53 +1,37 @@
 .footer {
-  height: 35rem;
+  height: 50rem;
   display: flex;
   justify-content: space-evenly;
   text-align: center;
   letter-spacing: 2px;
   webkit-clip-path: polygon(0% 60%, 100% 0%, 100% 100%, 0% 100%);
   clip-path: polygon(0% 60%, 100% 0%, 100% 100%, 0% 100%);
-  margin-top: -25rem;
+  margin-top: -32rem;
   position: relative;
+  background: rgba($color-white, 1);
 
-  &__left {
-    background: rgba($color-white, 1);
-    flex: 1 1 29%;
+  &__content {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 3rem;
+    color: black;
+    flex-direction: column;
+  }
+
+  &__iconBank {
+
     display: flex;
     justify-content: center;
-    align-items: flex-end;
-    padding-bottom: 4rem;
+    align-items: center;
 
-    &-content {
-      color: black;
+    &-icon {
+      width: 4rem;
+      padding: 0 5px;
+      transition: all .2s;
     }
   }
 
-  &__right {
-    background: rgba($color-white, 1);
-    flex: 1 1 auto;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    padding-bottom: 4rem;
-
-    &-content {
-      color: black;
-    }
-
-    .footer__logo:hover {
-      filter: invert(60%);
-    }
-  }
-
-  &__logo {
-    width: 3rem;
-    padding: 0 5px;
-    transition: all .2s;
-  }
-
-  @media (max-width: 650px) {
-    font-size: 1rem;
-  }
 }
 
 .upArrow  {
@@ -62,18 +46,9 @@
   
   &:hover {
     transform: translate(-50%, -60%) scale(1.05);
-    filter: drop-shadow(0 1rem 6px black);
   }
   
-  @media (max-width: 650px) {
-    bottom: 35%;
-  }
-
   &__image {
     width: 8rem;
-
-    @media (max-width: 650px) {
-      width: 6rem;
-    }
   }
 }

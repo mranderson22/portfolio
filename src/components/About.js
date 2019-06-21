@@ -50,11 +50,12 @@ const about = () => {
               <div className="attributes__left">
                 <span className="attributes__title">Hobbies:</span>
                 <ul className="attributes__hobbies">
-                  <li>3D Printing - PLA / DnD minis </li>
-                  <li>3D Modeling - Autodesk Maya / Sci-Fi tech </li>
-                  <li>PC Building - Nvidia fanboy / 144hz 1440p </li>
-                  <li>PC Gaming - Dota / Apex / Rocket League</li>
-                  <li>Star wars - ESB / ANH / TFA / RO / ROTS / ROTJ / The rest </li>
+                  <li><span>3D Printing</span> - PLA / DnD minis </li>
+                  <li><span>3D Modeling</span> - Autodesk Maya / Sci-Fi tech </li>
+                  <li><span>PC Building</span> - Nvidia / 144hz 1440p </li>
+                  <li><span>PC Gaming</span> - Dota / Apex / Rocket League</li>
+                  <li><span>Star wars</span> - ESB / ANH / TFA / RO / ROTS / ROTJ / The rest </li>
+                  <li><span>Mechanical keyboards</span> - HHKB / Cherry MX Brown</li>
                 </ul>
               </div>
               <div className="attributes__right">

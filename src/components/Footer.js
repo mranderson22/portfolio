@@ -9,21 +9,14 @@ const Footer = ({scroll}) => (
     <div className="upArrow" onClick={() => scroll('home')}>
       <img className="upArrow__image" src={upArrow} />
     </div>
-    <div className="footer__left">
-      <div className="footer__left-content">
-        <h3>Designed and built by Eric Anderson</h3>
-        <img className="footer__logo" src={logo} />
-      </div>
-    </div>
-    <div className="footer__right">
-      <div className="footer__right-content">
-        <h3>anderson.eda@gmail.com</h3>
-        <h3>eric-anderson.io © 2019 Eric Anderson</h3>
+    <div className="footer__content">
+      <h3>Designed and built by Eric Anderson</h3>
+      <div className="footer__iconBank">
         <a href="https://github.com/mranderson22" target="_blank" rel="noopener noreferrer">
-          <img className="footer__logo" src={githubLogo} />
+          <img className="footer__iconBank-icon" src={githubLogo} />
         </a>
         <a href="https://linkedin.com/in/eric-anderson-5b20a5184/" target="_blank" rel="noopener noreferrer">
-          <img className="footer__logo" src={linkedInLogo} />
+          <img className="footer__iconBank-icon" src={linkedInLogo} />
         </a>
       </div>
     </div>
