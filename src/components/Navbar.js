@@ -6,8 +6,12 @@ const Navbar = ({scroll, popup}) => {
   return (
     <div>
       <div className="navBar" id="nav">
-        <div className="homeIcon">
-          <img src={icon} className="logoSymbol" onClick={() => scroll('home')}/>
+        <div className="homeIcon" onClick={() => scroll('home')}>
+          <img src={icon} className="logoSymbol"/>
+          <div className="homeIcon__name">
+            <span>Eric Anderson</span>
+            <span>Front-end developer</span>
+          </div>
         </div>
         <div className="rightBank">
           <div className="navBar__button" onClick={() => scroll('work')}>
