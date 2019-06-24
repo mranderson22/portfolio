@@ -16,7 +16,7 @@ const Header = ({scroll}) => {
       </div>
       <div data-aos="fade-up" data-aos-delay="250" data-aos-mirror="true">
         <div className="btn" onClick={() => scroll('work')}>
-          Let's start with projects &darr;
+          View my work &darr;
         </div>
       </div>
     </header>

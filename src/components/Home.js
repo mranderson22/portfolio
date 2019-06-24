@@ -3,6 +3,7 @@ import Header from './Header';
 import Work from './Work';
 import Resume from './Resume';
 import About from './About';
+import Contact from './Contact';
 import Footer from './Footer';
 import Navbar from './Navbar';
 import 'aos/dist/aos.css';
@@ -36,12 +37,13 @@ const Home = () => {
 
   return (
     <div>
-      <Navbar scroll={scroll} popup={popup}/>
+      <Navbar scroll={scroll}/>
       <Header scroll={scroll}/>
       <main>
         <Work />
-        <About />
+        <About popup={popup}/>
         <Resume popup={popup}/>
+        <Contact />
       </main>
       <Footer scroll={scroll} />
     </div>

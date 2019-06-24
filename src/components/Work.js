@@ -7,7 +7,7 @@ const work = () => {
     <div className="work">
       <div className="content">
           <div className="content__body-project">
-            <span className="content__section-title" id="work" data-aos-mirror="false">Projects</span>
+            <span className="content__section-title" id="work" data-aos-mirror="false">Work</span>
             <div className="content__body-imageBank">
               <img src={mockups} className="content__body-imageBank-image"></img>
             </div>

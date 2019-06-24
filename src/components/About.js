@@ -2,7 +2,7 @@ import React from 'react';
 import portrait from '../../images/portrait2.png';
 import Graph from './Graph';
 
-const about = () => {
+const about = ({popup}) => {
 
   return (
     <div className="about">
@@ -14,8 +14,10 @@ const about = () => {
               <p className="portrait__message">A little about me...
 
               I've been building computers since i was 8 years old. I got in trouble for loading DOOM via floppy onto all of the pc's in my elementary school.
-              I decided to teach myself how to code after watching my wife become an accomplished full-stack engineer. I fell in love with coding when
-              I pushed my first web-app live and actually made use of it. I love that there is so much to learn and I've only grazed the surface.    </p>
+              I decided to teach myself how to code after watching my wife become an accomplished full-stack engineer, and I fell in love with coding when
+              I pushed my first web-app live and actually made use of it! I love that there is so much to learn and I've only grazed the surface.    </p>
+              <p className="portrait__message">I ran a cafe in Manhattan for 8 years, and there's a strong possibility that I've met an actor from the last movie you watched. My wife and I spend our evenings
+              playing competitive video games (which is actually how we met), and our house is a jungle due to our 3 cats, a dog, and a recent fascination with house plants.</p>
             </div>
             <div className="devIcons-wrapper">
               <span className="devIcons-title">What I enjoy working with: </span>
@@ -35,6 +37,21 @@ const about = () => {
                 <i className="devicon-ubuntu-plain devIcons__icon" data-aos="fade-left" data-aos-delay="650"></i>
               </div>
             </div>
+            <div className="content__body-project-buttons">
+                <a 
+                href="https://github.com/mranderson22" 
+                target="_blank" 
+                className="btn"
+                >
+                  Github
+                </a>
+                <a
+                href="#about"
+                className="btn"
+                >
+                <span onClick={popup}>Resume</span>
+                </a>
+            </div>
             <div className="attributes__wrapper">
               <div className="attributes__left">
                 <span className="attributes__title">Hobbies:</span>
@@ -45,6 +62,7 @@ const about = () => {
                   <li><span>PC Gaming</span> - Dota / Apex / Rocket League</li>
                   <li><span>Star wars</span> - ESB / ANH / TFA / RO / ROTS / ROTJ / The rest </li>
                   <li><span>Mechanical keyboards</span> - HHKB / Cherry MX Brown</li>
+                  <li><span>Board Games</span> - Gloomhaven / Chaotic good</li>
                 </ul>
               </div>
               <div className="attributes__right">

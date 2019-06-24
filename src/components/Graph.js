@@ -63,7 +63,7 @@ const Graph = () => {
 
     return (
         <div className="graph">
-          <span className="graph__title">Strengths:</span>
+          <span className="graph__title">Interesting Chart:</span>
           <Chart options={options} series={series} type="radar" height="400" width="400" />
         </div>
       );
