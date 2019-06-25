@@ -5934,7 +5934,14 @@ react-router@^4.2.0:
     prop-types "^15.6.1"
     warning "^4.0.1"
 
-react@^16.8.6:
+react-scrollspy-nav@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/react-scrollspy-nav/-/react-scrollspy-nav-1.2.1.tgz#fd49c7e3bb2e0b3e248a6f546d3e612b04dface2"
+  integrity sha512-Q5havA+51wzFyDoV3BXe5S5NSEtUrrw01pNowGPxHVwbqUhrx0ZYOPHvNO8Ux4P5h9PI97Yb4GBUFwBC5VZSQg==
+  dependencies:
+    react "^16.5.0"
+
+react@^16.5.0, react@^16.8.6:
   version "16.8.6"
   resolved "https://registry.yarnpkg.com/react/-/react-16.8.6.tgz#ad6c3a9614fd3a4e9ef51117f54d888da01f2bbe"
   integrity sha512-pC0uMkhLaHm11ZSJULfOBqV4tIZkx87ZLvbbQYunNixAAvjnC+snJCg0XQXn9VIsttVsbZP/H/ewzgsd5fxKXw==

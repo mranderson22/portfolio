@@ -19,3 +19,12 @@
   align-content: center;
   align-items: center;
 }
+
+.active {
+  color: $color-red !important;
+}
+
+.disable {
+  pointer-events: none;
+  cursor: default;
+}

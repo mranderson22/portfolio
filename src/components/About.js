@@ -5,7 +5,7 @@ import Graph from './Graph';
 const about = ({popup}) => {
 
   return (
-    <div className="about">
+    <div className="about" id="aboutNav">
     <div className="content">
           <div className="content__body-project">
             <span className="content__section-title" id="about">About</span>
@@ -31,10 +31,11 @@ const about = ({popup}) => {
                 <i className="devicon-heroku-original devIcons__icon" data-aos="fade-left" data-aos-delay="350"></i>
                 <i className="devicon-javascript-plain devIcons__icon" data-aos="fade-left" data-aos-delay="400"></i>
                 <i className="devicon-photoshop-plain devIcons__icon" data-aos="fade-left" data-aos-delay="450"></i>
-                <i className="devicon-illustrator-plain devIcons__icon" data-aos="fade-left" data-aos-delay="500"></i>
-                <i className="devicon-windows8-original devIcons__icon" data-aos="fade-left" data-aos-delay="550"></i>
-                <i className="devicon-apple-original devIcons__icon" data-aos="fade-left" data-aos-delay="600"></i>
-                <i className="devicon-ubuntu-plain devIcons__icon" data-aos="fade-left" data-aos-delay="650"></i>
+                <i className="devicon-windows8-original devIcons__icon" data-aos="fade-left" data-aos-delay="500"></i>
+                <i className="devicon-apple-original devIcons__icon" data-aos="fade-left" data-aos-delay="550"></i>
+                <i className="devicon-trello-plain devIcons__icon" data-aos="fade-left" data-aos-delay="600"></i>
+                <i className="devicon-slack-plain devIcons__icon" data-aos="fade-left" data-aos-delay="650"></i>
+                <i className="devicon-visualstudio-plain devIcons__icon" data-aos="fade-left" data-aos-delay="700"></i>
               </div>
             </div>
             <div className="content__body-project-buttons">
@@ -53,20 +54,19 @@ const about = ({popup}) => {
                 </a>
             </div>
             <div className="attributes__wrapper">
-              <div className="attributes__left">
-                <span className="attributes__title">Hobbies:</span>
+            <span className="attributes__title">Hobbies:</span>
+              <div className="attributes__split">
                 <ul className="attributes__hobbies">
                   <li><span>3D Printing</span> - PLA / DnD minis </li>
                   <li><span>3D Modeling</span> - Autodesk Maya / Sci-Fi tech </li>
                   <li><span>PC Building</span> - Nvidia / 144hz 1440p </li>
                   <li><span>PC Gaming</span> - Dota / Apex / Rocket League</li>
+                </ul>
+                <ul className="attributes__hobbies">
                   <li><span>Star wars</span> - ESB / ANH / TFA / RO / ROTS / ROTJ / The rest </li>
                   <li><span>Mechanical keyboards</span> - HHKB / Cherry MX Brown</li>
                   <li><span>Board Games</span> - Gloomhaven / Chaotic good</li>
                 </ul>
-              </div>
-              <div className="attributes__right">
-                <Graph />
               </div>
             </div>
           </div>

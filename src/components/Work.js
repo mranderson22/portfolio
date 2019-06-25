@@ -4,7 +4,7 @@ import mockups from '../../images/mockups.png';
 const work = () => {
 
   return (
-    <div className="work">
+    <div className="work" id="workNav">
       <div className="content">
           <div className="content__body-project">
             <span className="content__section-title" id="work" data-aos-mirror="false">Work</span>
@@ -31,6 +31,8 @@ const work = () => {
                 <i className="devicon-html5-plain devIcons__icon" data-aos="fade-left" data-aos-delay="400"></i>
                 <i className="devicon-webpack-plain devIcons__icon" data-aos="fade-left" data-aos-delay="500"></i>
                 <i className="devicon-babel-plain devIcons__icon" data-aos="fade-left" data-aos-delay="600"></i>
+                <i className="devicon-trello-plain devIcons__icon" data-aos="fade-left" data-aos-delay="700"></i>
+                
               </div>
             </div>
             <div className="content__body-project-buttons">
