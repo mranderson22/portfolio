@@ -63,6 +63,12 @@
     display: flex;
     width: 100%;
     flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: justify;
+
+    @media (max-width: 1050px) {
+      justify-content: flex-start;
+    }
   }
 
   &__hobbies {
