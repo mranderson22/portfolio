@@ -17,7 +17,7 @@ const about = ({popup}) => {
               I decided to teach myself how to code after watching my wife become an accomplished full-stack engineer, and I fell in love with coding when
               I pushed my first web-app live and actually made use of it! I love that there is so much to learn and I've only grazed the surface.    </p>
               <p className="portrait__message">I ran a cafe in Manhattan for 8 years, and there's a strong possibility that I've met an actor from the last movie you watched. My wife and I spend our evenings
-              playing competitive video games (which is actually how we met), and our house is a jungle due to our 3 cats, a dog, and a recent fascination with house plants.</p>
+              playing competitive video games (which is actually how we met), and our house is a jungle due to our dog, 3 cats, and a recent fascination with house plants.</p>
             </div>
             <div className="devIcons-wrapper">
               <span className="devIcons-title">What I enjoy working with: </span>

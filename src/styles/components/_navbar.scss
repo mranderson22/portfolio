@@ -23,6 +23,7 @@
       text-align: center;
       letter-spacing: 2px;
       transition: all .2s;
+      font-size: 2.2rem;
 
       &:before {
         content: "";
@@ -77,15 +78,15 @@
     line-height: 1;
     font-size: 2.1rem;
     padding-top: 1rem;
+    letter-spacing: 2px;
 
     @media (max-width: 650px) {
-      font-size: 1.6rem;
-      width: 11rem;
+      display: none;
     }
   }
 
   @media (max-width: 650px) {
-    padding-left: 1rem;
+    padding-left: 1.5rem;
   }
 }
 
@@ -98,7 +99,7 @@
 .rightBank {
   display: flex;
   justify-content: space-around;
-  width: 25rem;
+  width: 30rem;
   padding-right: 3rem;
 }
 
