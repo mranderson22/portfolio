@@ -1,4 +1,5 @@
 import React from 'react';
+import FormikApp from './ContactForm';
 
 const Contact = () => {
   return (
@@ -9,6 +10,7 @@ const Contact = () => {
           <span className="content__body-header-description">I'm currently looking for a position as a front-end 
           React developer. If you have availability, or want to pass me along to someone that does, feel
           free to contact me. I look forward to hearing from you!</span>
+          <FormikApp />
           </div>
         </div>
       </div>
