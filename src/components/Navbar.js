@@ -6,16 +6,18 @@ const Navbar = ({scroll}) => {
 
   return (
     <ScrollspyNav
-      scrollTargetIds={[ "workNav", "aboutNav", "contactNav" ]}
+      scrollTargetIds={[ "home", "workNav", "aboutNav", "contactNav" ]}
       activeNavClass="active"
     >
       <div className="navBar" id="nav">
         <div className="homeIcon" onClick={() => scroll('home')}>
           <img src={icon} className="logoSymbol"/>
-          <div className="homeIcon__name">
-            <span>Eric Anderson</span>
-            <span>Front-end developer</span>
-          </div>
+          <a href="#home" className="disable">
+            <div className="homeIcon__name">
+              <span>Eric Anderson</span>
+              <span>Front-end developer</span>
+            </div>
+          </a>
         </div>
         <div className="rightBank">
           <div className="navBar__button" onClick={() => scroll('work')}>
