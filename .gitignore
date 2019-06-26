@@ -1,4 +1,4 @@
 node_modules
 public/dist/
 src\nodemailer-Config.js
-firebaseSDK.js
+.env.firebaseSDK
