@@ -39,7 +39,7 @@ const FormikApp = withFormik({
   validationSchema: Yup.object().shape({
     name: Yup.string().required('Your name would be helpful!'),
     email: Yup.string().email().required('Include your email so I can get back to you!'),
-    message: Yup.string().required('What message did you want to send?')
+    message: Yup.string().required('What message did you want to send!?')
   }),
 
   handleSubmit(values, { resetForm, setErrors, setSubmitting }) {
