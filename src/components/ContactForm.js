@@ -3,7 +3,7 @@ import { withFormik, Form, Field } from 'formik';
 import * as Yup from 'yup';
 import database from '../firebase/firebase';
 
-const ContactForm = ({
+const FormLayout = ({
   errors,
   touched,
   isSubmitting
@@ -27,7 +27,7 @@ const ContactForm = ({
   )
 }
 
-const FormikApp = withFormik({
+const ContactForm = withFormik({
   mapPropsToValues({ name, email, message }) {
     return {
       name: '',
@@ -48,6 +48,6 @@ const FormikApp = withFormik({
       setSubmitting(false)
       alert("message sent!")
   }
-})(ContactForm)
+})(FormLayout)
 
-export {FormikApp as default}
+export {ContactForm as default}

@@ -30,8 +30,10 @@ const Home = () => {
   })
 
   const popup = () => {
+
+    const root = document.getElementsByTagName( 'html' )[0];
     const resume = document.getElementById('resume');
-    document.body.classList.toggle('scrollbar')
+    root.classList.toggle('scrollbar')
     resume.classList.toggle('reveal');
   }
 

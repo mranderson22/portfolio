@@ -11,4 +11,20 @@
 
 .contact .content__body-header-description {
   color: $color-white;
+  width: 40rem;
+  padding: 0;
+}
+
+.contactForm {
+
+  &__wrapper {
+    width: 40rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+.contact .sideBySide {
+  padding-bottom: 8rem;
 }

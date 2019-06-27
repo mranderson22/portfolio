@@ -1,5 +1,5 @@
 import React from 'react';
-import FormikApp from './ContactForm';
+import ContactForm from './ContactForm';
 
 const Contact = () => {
   return (
@@ -7,10 +7,14 @@ const Contact = () => {
         <div className="content">
           <div className="content__body-project">
           <span className="content__section-title" id="contact">Contact</span>
-          <span className="content__body-header-description">I'm currently looking for a position as a front-end 
-          React developer. If you have availability, or want to pass me along to someone that does, feel
-          free to contact me. I look forward to hearing from you!</span>
-          <FormikApp />
+          <div className="sideBySide">
+            <span className="content__body-header-description">I'm currently looking for a position as a front-end 
+            developer. If you are interested in working with me, feel
+            free to contact me. I look forward to hearing from you!</span>
+            <div className="contactForm__wrapper">
+              <ContactForm />
+            </div>
+          </div>
           </div>
         </div>
       </div>

@@ -6,10 +6,10 @@ const Resume = ({popup}) => {
   return (
     <div className="resume" id="resume" onClick={() => popup()}>
     <span className="resume__close">&times;</span>
-      <iframe
+      <object
       title="file"
       style={{ width: '90%', height: '90%' }}
-      src={resumeFile}
+      data={resumeFile}
       />
     </div>
   );
