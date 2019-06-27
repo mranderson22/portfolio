@@ -9,20 +9,20 @@ const FormLayout = ({
   isSubmitting
 }) => {
   return (
-    <Form>
-      <div>
-        { touched.name && errors.name && <p>{errors.name}</p> }
-        <Field type="name" name="name" placeholder="Name" />
+    <Form className="contactForm">
+      <div className="inputField">
+        { touched.name && errors.name && <p className="formError formError-first">{errors.name}</p> }
+        <Field type="text" name="name" placeholder="Your name" autoComplete="sdfsessdf" className="inputField__input" />
       </div>
-      <div>
-        { touched.email && errors.email && <p>{errors.email}</p> }
-        <Field type="email" name="email" placeholder="Email" />
+      <div className="inputField">
+        { touched.email && errors.email && <p className="formError">{errors.email}</p> }
+        <Field type="email" name="email" placeholder="Your E-mail" autoComplete="asdfsdfd" />
       </div>
-      <div>
-        { touched.message && errors.message && <p>{errors.message}</p> }
-        <Field component="textarea" rows="5" type="text" name="message" placeholder="Message" />
+      <div className="inputField">
+        { touched.message && errors.message && <p className="formError formError-last">{errors.message}</p> }
+        <Field component="textarea" rows="5" type="text" name="message" placeholder="What's Up?" autoComplete="23wedfsdf" />
       </div>
-      <button disabled={isSubmitting} type="submit">{isSubmitting ? "Sending..." : "Submit"}</button>
+      <button className="btn" disabled={isSubmitting} type="submit">{isSubmitting ? "Sent!" : "Get in Touch"}</button>
     </Form>
   )
 }
@@ -43,10 +43,13 @@ const ContactForm = withFormik({
   }),
 
   handleSubmit(values, { resetForm, setErrors, setSubmitting }) {
+      
       database.ref('messages').push(values)
       resetForm()
-      setSubmitting(false)
-      alert("message sent!")
+      setSubmitting(true)
+      setTimeout(() => {
+        setSubmitting(false)
+      }, 3000)
   }
 })(FormLayout)
 

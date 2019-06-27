@@ -13,18 +13,8 @@
   color: $color-white;
   width: 40rem;
   padding: 0;
-}
 
-.contactForm {
-
-  &__wrapper {
-    width: 40rem;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+  @media (max-width: 1000px) {
+    margin-bottom: 5rem;
   }
-}
-
-.contact .sideBySide {
-  padding-bottom: 8rem;
 }
