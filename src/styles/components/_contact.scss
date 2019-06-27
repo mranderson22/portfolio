@@ -1,20 +1,22 @@
 .contact {
-  margin-top: -20rem;
+  margin-top: -30rem;
 
 }
 
 .contact .content__body-project {
   background: $color-black;
   padding-bottom: 30rem;
-  padding-top: 10rem;
+  padding-top: 20rem;
 }
 
 .contact .content__body-header-description {
   color: $color-white;
   width: 40rem;
   padding: 0;
+  padding-right: 6rem;
 
-  @media (max-width: 1000px) {
+  @media (max-width: 1100px) {
     margin-bottom: 5rem;
+    padding-right: 0;
   }
 }

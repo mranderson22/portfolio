@@ -12,7 +12,7 @@ const FormLayout = ({
     <Form className="contactForm">
       <div className="inputField">
         { touched.name && errors.name && <p className="formError formError-first">{errors.name}</p> }
-        <Field type="text" name="name" placeholder="Your name" autoComplete="sdfsessdf" className="inputField__input" />
+        <Field type="text" name="name" placeholder="Your name" autoComplete="sdfsessdf" className="inputField__input inputField__input-first" />
       </div>
       <div className="inputField">
         { touched.email && errors.email && <p className="formError">{errors.email}</p> }

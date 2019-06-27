@@ -1,23 +1,24 @@
 .about {
-  margin-top: -41rem;
+  margin-top: -44rem;
 
 }
 
 .about .content__body-project {
-  background: $color-red;
-  padding-bottom: 15rem;
-  padding-top: 35rem;
-  webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 91%, 0% 100%);
-  clip-path: polygon(0% 0%, 100% 0%, 100% 91%, 0% 100%);
+  background: $color-black;
+  padding-bottom: 24rem;
+  padding-top: 33rem;
+  webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 87%, 0% 100%);
+  clip-path: polygon(0% 0%, 100% 0%, 100% 87%, 0% 100%);
+  z-index: 80;
 
-  @media (max-width: 1000px) {
-    webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 93%, 0% 100%);
-  clip-path: polygon(0% 0%, 100% 0%, 100% 93%, 0% 100%);
-  }
+  // @media (max-width: 1000px) {
+  //   webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 93%, 0% 100%);
+  // clip-path: polygon(0% 0%, 100% 0%, 100% 93%, 0% 100%);
+  // }
 }
 
 .portrait {
-
+  color: $color-white;
   width: 80%;
 
   &__image {
@@ -78,11 +79,11 @@
 
     li {
       font-size: 2.5rem;
-      color: $color-black;
+      color: $color-white;
       list-style: none;
 
       span {
-        color: $color-white;
+        color: $color-red;
       }
     }
   }

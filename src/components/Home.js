@@ -42,8 +42,8 @@ const Home = () => {
       <Navbar scroll={scroll}/>
       <Header scroll={scroll}/>
       <main>
-        <Work />
         <About popup={popup}/>
+        <Work />
         <Resume popup={popup}/>
         <Contact />
       </main>

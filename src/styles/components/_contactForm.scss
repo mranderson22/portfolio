@@ -1,6 +1,6 @@
 .contactForm {
 
-  width: 30rem;
+  width: 100%;
 
   &__wrapper {
     width: 40rem;
@@ -60,6 +60,10 @@ button {
 
 .inputField {
   position: relative;
+
+  &__input-first {
+    border-top: none;
+  }
 }
 
 input:-webkit-autofill,
@@ -82,7 +86,7 @@ select:-webkit-autofill:focus {
 
 .formError {
   position: absolute;
-  color: white;
+  color: $color-red;
   bottom: -4.2rem;
   right: 0;
 
