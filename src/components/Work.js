@@ -25,13 +25,13 @@ const work = () => {
             <div className="devIcons-wrapper">
               <span className="devIcons-title">Build:</span>
               <div className="devIcons" data-aos="fade">
-                <i className="devicon-heroku-original devIcons__icon" data-aos="fade-left" data-aos-delay="100"></i>
-                <i className="devicon-react-original devIcons__icon" data-aos="fade-left" data-aos-delay="200"></i>
-                <i className="devicon-sass-original devIcons__icon" data-aos="fade-left" data-aos-delay="300"></i>
-                <i className="devicon-html5-plain devIcons__icon" data-aos="fade-left" data-aos-delay="400"></i>
-                <i className="devicon-webpack-plain devIcons__icon" data-aos="fade-left" data-aos-delay="500"></i>
-                <i className="devicon-babel-plain devIcons__icon" data-aos="fade-left" data-aos-delay="600"></i>
-                <i className="devicon-trello-plain devIcons__icon" data-aos="fade-left" data-aos-delay="700"></i>
+                <i className="devicon-heroku-original devIcons__icon" data-aos="fade-left" data-aos-delay="100"><span className="devIcons__icon-text">Heroku</span></i>
+                <i className="devicon-react-original devIcons__icon" data-aos="fade-left" data-aos-delay="200"><span className="devIcons__icon-text">React</span></i>
+                <i className="devicon-sass-original devIcons__icon" data-aos="fade-left" data-aos-delay="300"><span className="devIcons__icon-text">Sass</span></i>
+                <i className="devicon-html5-plain devIcons__icon" data-aos="fade-left" data-aos-delay="400"><span className="devIcons__icon-text">HTML5</span></i>
+                <i className="devicon-webpack-plain devIcons__icon" data-aos="fade-left" data-aos-delay="500"><span className="devIcons__icon-text">Webpack</span></i>
+                <i className="devicon-babel-plain devIcons__icon" data-aos="fade-left" data-aos-delay="600"><span className="devIcons__icon-text">Babel</span></i>
+                <i className="devicon-trello-plain devIcons__icon" data-aos="fade-left" data-aos-delay="700"><span className="devIcons__icon-text">Trello</span></i>
                 
               </div>
             </div>

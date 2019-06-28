@@ -15,8 +15,8 @@ const Header = ({scroll}) => {
         <span className="header__main-2">I'm a highly motivated, self-taught front-end developer based in Charlotte, NC.</span>
       </div>
       <div data-aos="fade-up" data-aos-delay="250" data-aos-mirror="true">
-        <div className="btn" onClick={() => scroll('work')}>
-          View my work &darr;
+        <div className="btn" onClick={() => scroll('about')}>
+          Learn More &darr;
         </div>
       </div>
     </header>
