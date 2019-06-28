@@ -7,11 +7,8 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    padding-bottom: 10rem;
   }
-}
-
-.contact .sideBySide {
-  padding-bottom: 8rem;
 }
 
 input,
@@ -39,6 +36,8 @@ textarea {
   width: 100%;
   resize: none;
   border-bottom: none;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 button {
@@ -81,7 +80,8 @@ select:-webkit-autofill:focus {
 }
 
 .contactForm .btn {
-  font-size: 2rem;
+  font-size: 2.5rem;
+  font-family: inherit;
 }
 
 .formError {

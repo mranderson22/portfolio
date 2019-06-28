@@ -1,22 +1,52 @@
 .contact {
-  margin-top: -30rem;
+  margin-top: -34rem;
+
+  &__left {
+    width: 40rem;
+    padding-right: 6rem;
+    display: flex;
+    flex-direction: column;
+
+    @media (max-width: 1100px) {
+      padding-right: 0;
+    }
+  }
+
+  &__specifics {
+    color: $color-white;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family: 'Open Sans', sans-serif;
+
+
+    i {
+      color: $color-red;
+      padding-right: 2rem;
+    }
+
+    span {
+      font-size: 2rem;
+      font-weight: 300;
+    }
+
+    a {
+      color: inherit;
+    }
+  }
 
 }
 
 .contact .content__body-project {
   background: $color-black;
   padding-bottom: 30rem;
-  padding-top: 20rem;
+  padding-top: 15rem;
 }
 
 .contact .content__body-header-description {
   color: $color-white;
   width: 40rem;
   padding: 0;
-  padding-right: 6rem;
-
-  @media (max-width: 1100px) {
-    margin-bottom: 5rem;
-    padding-right: 0;
-  }
 }
+

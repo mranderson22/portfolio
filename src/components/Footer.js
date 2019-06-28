@@ -10,7 +10,7 @@ const Footer = ({scroll}) => (
       <img className="upArrow__image" src={upArrow} />
     </div>
     <div className="footer__content">
-      <h3>Designed and built by Eric Anderson</h3>
+      <h3>Designed and built by Eric Anderson &copy; 2019</h3>
       <div className="footer__iconBank">
         <a href="https://github.com/mranderson22" target="_blank" rel="noopener noreferrer">
           <img className="footer__iconBank-icon" src={githubLogo} />

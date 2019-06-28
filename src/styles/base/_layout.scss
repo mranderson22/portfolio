@@ -6,29 +6,35 @@
 
   &__section-title {
     color: white;
-    font-size: 5rem;
+    font-size: 7rem;
     text-transform: uppercase;
     display: flex;
     width: 35%;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     text-align: center;
     margin-bottom: 2rem;
     font-weight: 700;
-    letter-spacing: .3em;
-    padding-top: 12rem;
+    letter-spacing: 5px;
+    padding-top: 10rem;
+    width: 80%;
+    max-width: 145rem;
 
-     &::before,
-      &::after {
-        content: '';
-        border-top: 2px solid;
-        margin: 0 20px 0 0;
-        flex: 1 0 20px;
-      }
+    //  &::before,
+    //   &::after {
+    //     content: '';
+    //     border-top: 2px solid;
+    //     margin: 0 20px 0 0;
+    //     flex: 1 0 20px;
+    //   }
 
-      &::after {
-        margin: 0 0 0 5px;
-      }
+    //   &::after {
+    //     margin: 0 0 0 5px;
+    //   }
+
+    @media (max-width: 650px) {
+      font-size: 5rem;
+    } 
   }
 
   &__header {
@@ -62,12 +68,14 @@
         font-size: 3rem;
         font-family: 'Open Sans', sans-serif;
         text-align: center;
+        
       }
 
       &-description {
         font-size: 1.8rem;
         padding: 2rem 5rem;
         width: 80%;
+        max-width: 145rem;
         font-family: 'Open Sans', sans-serif;
         font-weight: 300;
         text-align: justify;
@@ -85,7 +93,7 @@
 
       &-image {
         width: 80vw;
-        max-width: 125rem;
+        max-width: 100rem;
       }
 
       &-imageFloating {
@@ -179,6 +187,7 @@
   &-wrapper {
     text-align: center;
     width: 80%;
+    max-width: 145rem;
   }
 
   &-title {
@@ -204,6 +213,7 @@
   border: 2px solid $color-red;
   backface-visibility: hidden;
   border-radius: 3px;
+  font-family: inherit;
 
   &:link,
   &:visited {
@@ -224,7 +234,7 @@
   &:active {
     border: 2px solid $color-white;
     background-position: 99%;
-    color: $color-red;
+    color: $color-black;
     transform: translateY(-.5rem);
     backface-visibility: hidden;
     box-shadow: 0 1rem 3rem rgba(black, .2);
@@ -236,4 +246,5 @@
   justify-content: center; 
   flex-wrap: wrap;
   width: 80%;
+  max-width: 145rem;
 }

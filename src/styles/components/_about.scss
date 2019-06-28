@@ -1,12 +1,12 @@
 .about {
-  margin-top: -44rem;
+  margin-top: -48rem;
 
 }
 
 .about .content__body-project {
-  background: $color-black;
-  padding-bottom: 24rem;
-  padding-top: 33rem;
+  background-color: $color-black;
+  padding-bottom: 27rem;
+  padding-top: 31rem;
   webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 87%, 0% 100%);
   clip-path: polygon(0% 0%, 100% 0%, 100% 87%, 0% 100%);
   z-index: 80;
@@ -20,6 +20,7 @@
 .portrait {
   color: $color-white;
   width: 80%;
+  max-width: 145rem;
 
   &__image {
     width: 23rem;
@@ -49,6 +50,7 @@
     justify-content: space-evenly;
     align-items: center;
     width: 80%;
+    max-width: 145rem;
     flex-wrap: wrap;
     flex-direction: column;
     margin-top: 3rem;
@@ -96,4 +98,10 @@
 .about .btn:link,
 .btn:visited {
   margin: 0 2rem;
+}
+
+.about .content__section-title {
+  span {
+    color: $color-red;
+  }
 }

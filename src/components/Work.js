@@ -7,7 +7,7 @@ const work = () => {
     <div className="work" id="workNav">
       <div className="content">
           <div className="content__body-project">
-            <span className="content__section-title" id="work" data-aos-mirror="false">Work</span>
+            <span className="content__section-title" id="work" data-aos="fade-right">Work</span>
             <div className="content__body-imageBank">
               <img src={mockups} className="content__body-imageBank-image"></img>
             </div>
@@ -24,7 +24,7 @@ const work = () => {
             </div>
             <div className="devIcons-wrapper">
               <span className="devIcons-title">Build:</span>
-              <div className="devIcons" data-aos="fade">
+              <div className="devIcons">
                 <i className="devicon-heroku-original devIcons__icon" data-aos="fade-left" data-aos-delay="100"><span className="devIcons__icon-text">Heroku</span></i>
                 <i className="devicon-react-original devIcons__icon" data-aos="fade-left" data-aos-delay="200"><span className="devIcons__icon-text">React</span></i>
                 <i className="devicon-sass-original devIcons__icon" data-aos="fade-left" data-aos-delay="300"><span className="devIcons__icon-text">Sass</span></i>
@@ -36,7 +36,7 @@ const work = () => {
               </div>
             </div>
             <div className="content__body-project-buttons">
-              <div data-aos="fade">
+              <div>
                 <a 
                 href="https://github.com/mranderson22/shouldicheckmycrypto" 
                 target="_blank" 
@@ -45,7 +45,7 @@ const work = () => {
                   Github
                 </a>
               </div>
-              <div data-aos="fade">
+              <div>
                 <a 
                 href="https://shouldicheckmycrypto.com/" 
                 target="_blank" 

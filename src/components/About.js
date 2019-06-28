@@ -8,7 +8,7 @@ const about = ({popup}) => {
     <div className="about" id="aboutNav">
     <div className="content">
           <div className="content__body-project">
-            <span className="content__section-title" id="about">About</span>
+            <span className="content__section-title" id="about" data-aos="fade-right" data-aos-offset="300">About&nbsp;<span>Me</span></span>
             <div className="portrait">
               <img src={portrait} className="portrait__image"></img>
               <p className="portrait__message">A little about me...

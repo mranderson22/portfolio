@@ -1,16 +1,24 @@
 .navBar {
-  position: fixed;
-  top: 0;
-  height: 7rem;
-  width: 100vw;
+  width: 100%;
+  max-width: 200rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  align-content: center;
-  z-index: 1000;
-  color: white;
-  transition: all .5s;
-  backface-visibility: hidden;
+
+  &__wrapper {
+    position: fixed;
+    top: 0;
+    height: 7rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    z-index: 1000;
+    color: white;
+    transition: all .5s;
+    backface-visibility: hidden;
+  }
 
   &__button {
     @include centerOnPage;

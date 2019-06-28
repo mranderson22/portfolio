@@ -38,7 +38,7 @@ const ContactForm = withFormik({
 
   validationSchema: Yup.object().shape({
     name: Yup.string().required('Your name would be helpful!'),
-    email: Yup.string().email().required('Include your email so I can get back to you!'),
+    email: Yup.string().email('A valid email it must be!').required('Include your email so I can get back to you!'),
     message: Yup.string().required('What message did you want to send!?')
   }),
 
