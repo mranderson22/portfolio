@@ -7,7 +7,7 @@ const work = () => {
     <div className="work" id="workNav">
       <div className="content">
           <div className="content__body-project">
-            <span className="content__section-title" id="work" data-aos="fade-right">Work</span>
+            <span className="content__section-title" id="work" data-aos="fade-right">My&nbsp;<span>Work</span></span>
             <div className="content__body-imageBank">
               <img src={mockups} className="content__body-imageBank-image"></img>
             </div>

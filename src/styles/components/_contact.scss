@@ -40,7 +40,7 @@
 .contact .content__body-project {
   background: $color-black;
   padding-bottom: 30rem;
-  padding-top: 15rem;
+  padding-top: 18rem;
 }
 
 .contact .content__body-header-description {
@@ -50,6 +50,12 @@
 
   @media (max-width: 650px) {
     width: 100%;
+  }
+}
+
+.contact .content__section-title {
+  span {
+    color: $color-red;
   }
 }
 

@@ -6,7 +6,7 @@ const Navbar = ({scroll}) => {
 
   return (
     <ScrollspyNav
-      scrollTargetIds={[ "home", "aboutNav", "workNav", "contactNav" ]}
+      scrollTargetIds={[ "aboutNav", "workNav", "contactNav" ]}
       activeNavClass="active"
     >
       <div className="navBar__wrapper" id="nav">
