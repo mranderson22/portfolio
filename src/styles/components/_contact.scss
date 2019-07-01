@@ -2,13 +2,12 @@
   margin-top: -34rem;
 
   &__left {
-    width: 40rem;
+    flex: 1 1 15%;
     padding-right: 6rem;
-    display: flex;
-    flex-direction: column;
 
-    @media (max-width: 1100px) {
+    @media (max-width: 900px) {
       padding-right: 0;
+      flex: unset;
     }
   }
 
@@ -48,5 +47,9 @@
   color: $color-white;
   width: 40rem;
   padding: 0;
+
+  @media (max-width: 650px) {
+    width: 100%;
+  }
 }
 

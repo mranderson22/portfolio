@@ -12,7 +12,7 @@ const FormLayout = ({
     <Form className="contactForm">
       <div className="inputField">
         { touched.name && errors.name && <p className="formError formError-first">{errors.name}</p> }
-        <Field type="text" name="name" placeholder="Your name" autoComplete="sdfsessdf" className="inputField__input inputField__input-first" />
+        <Field type="text" name="name" placeholder="Your Name" autoComplete="sdfsessdf" className="inputField__input inputField__input-first" />
       </div>
       <div className="inputField">
         { touched.email && errors.email && <p className="formError">{errors.email}</p> }
@@ -20,7 +20,7 @@ const FormLayout = ({
       </div>
       <div className="inputField">
         { touched.message && errors.message && <p className="formError formError-last">{errors.message}</p> }
-        <Field component="textarea" rows="5" type="text" name="message" placeholder="What's Up?" autoComplete="23wedfsdf" />
+        <Field component="textarea" rows="5" type="text" name="message" placeholder="Your Message" autoComplete="23wedfsdf" />
       </div>
       <button className="btn" disabled={isSubmitting} type="submit">{isSubmitting ? "Sent!" : "Get in Touch"}</button>
     </Form>
