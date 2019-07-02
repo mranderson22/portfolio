@@ -15,7 +15,7 @@ const Footer = ({scroll}) => (
         <a href="https://github.com/mranderson22" target="_blank" rel="noopener noreferrer">
           <img className="footer__iconBank-icon" src={githubLogo} />
         </a>
-        <a href="https://linkedin.com/in/eric-anderson-5b20a5184/" target="_blank" rel="noopener noreferrer">
+        <a href="https://linkedin.com/in/EricAndersonDeveloper/" target="_blank" rel="noopener noreferrer">
           <img className="footer__iconBank-icon" src={linkedInLogo} />
         </a>
       </div>

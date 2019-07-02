@@ -20,7 +20,7 @@ const Contact = () => {
                 <i className="far fa-envelope fa-2x"></i><span>anderson.eda@gmail.com</span>
               </div>
               <div>
-                <i className="fab fa-linkedin fa-2x"></i><span><a href="https://www.linkedin.com/in/eric-anderson-5b20a5184/" target="_blank" rel="noopener noreferrer">LinkedIn</a></span>
+                <i className="fab fa-linkedin fa-2x"></i><span><a href="https://www.linkedin.com/in/EricAndersonDeveloper/" target="_blank" rel="noopener noreferrer">LinkedIn</a></span>
               </div>
             </div>
             </div>
