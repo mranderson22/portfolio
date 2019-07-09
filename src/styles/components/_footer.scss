@@ -9,6 +9,7 @@
   margin-top: -32rem;
   position: relative;
   background: rgba($color-white, 1);
+  transform: translateZ(0);
 
   &__content {
     display: flex;
