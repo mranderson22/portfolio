@@ -24,6 +24,7 @@
 
   &__image {
     width: 23rem;
+    -webkit-clip-path: circle(44% at 50% 44%);
     clip-path: circle(44% at 50% 44%);
     float: left;
     shape-outside: circle(44% at 50% 44%);
