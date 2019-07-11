@@ -17,7 +17,7 @@ const Contact = () => {
                 <i className="fas fa-mobile-alt fa-2x"></i><span>803 528 9762</span>
               </div>
               <div>
-                <i className="far fa-envelope fa-2x"></i><span>anderson.eda@gmail.com</span>
+                <i className="far fa-envelope fa-2x"></i><a href="mailto:anderson.eda@gmail.com"><span>anderson.eda@gmail.com</span></a>
               </div>
               <div>
                 <i className="fab fa-linkedin fa-2x"></i><span><a href="https://www.linkedin.com/in/EricAndersonDeveloper/" target="_blank" rel="noopener noreferrer">LinkedIn</a></span>
